@@ -58,12 +58,14 @@
         <div class="col-md-10 col-md-offset-1">
             <form action="#" method="get" class="form-horizontal">
                 <div class="form-group">
-                    <label for="prenom">Prénom</label>
-                    <input type="text" name="prenom" id="prenom" class="form-centrol" required>
-                    <label for="nom">Nom</label>
-                    <input type="text" name="nom" id="nom" class="form-centrol" required>
-                    <label for="email">E-mail</label>
-                </div>
+                    <label for="prenom" class="col-md-3">Prénom</label>
+                    <input type="text" name="prenom" id="prenom" class="form-centrol col-md-9" required> </div>
+                <div class="form-group">
+                    <label for="nom" class="col-md-3">Nom</label>
+                    <input type="text" name="nom" id="nom" class="form-centrol col-md-9" required> </div>
+                <div class="form-group">
+                    <label for="email" class="col-md-3">E-mail</label>
+                    <input type="email" name="email" id="email" class="form-control col-md-9" required> </div>
                 <button type="submit" id="envoyer">Envoyer !</button>
             </form>
         </div>
