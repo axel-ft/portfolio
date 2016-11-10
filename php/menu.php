@@ -6,24 +6,24 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Présentation Personnelle <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="index.php">Présentation Personnelle <span class="sr-only">(current)</span></a></li>
                 <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Parcours<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="parcours-professionnel.html">Professionnel</a></li>
+                        <li><a href="parcours-professionnel.php">Professionnel</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="parcours-personnel.html">Personnel</a></li>
+                        <li><a href="parcours-personnel.php">Personnel</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fichiers et Liens<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a target="_blank" href="files/CV_Axel_Floquet-Trillot.pdf">CV (PDF)</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="http://aps-paris5.fr">Site de l'APS</a></li>
+                        <li><a target="_blank" href="http://aps-paris5.fr">Site de l'APS</a></li>
                     </ul>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
