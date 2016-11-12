@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="css/style-general.css">
     <link rel="stylesheet" href="css/style-menu.css">
     <!-- BOOTSTRAP -->
     <!-- Latest compiled and minified CSS -->
@@ -25,7 +26,16 @@
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="index.html"><h1>Portfolio <small>Axel Floquet-Trillot</small></h1></a> </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <h1>Axel FT<small>Portfolio</small></h1>
+                    </a>
+                </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
@@ -59,9 +69,9 @@
             <div class="col-md-12">
                 <!-- DEBUT Onglets -->
                 <ul class="nav nav-pills nav-justified" role="tablist">
-                    <li class="active" role="presentation"><a href="#etudes" aria-controls="etudes" role="tab" data-toggle="pill">Etudes</a></li>
-                    <li role="presentation"><a href="#stages" aria-controls="stages" role="tab" data-toggle="pill">Stages</a></li>
-                    <li role="presentation"><a href="#associatif" aria-controls="associatif" role="tab" data-toggle="pill">Associatif</a></li>
+                    <li class="active" role="presentation"><a href="#etudes" aria-controls="etudes" role="tab" data-toggle="pill"><strong>Etudes</strong></a></li>
+                    <li role="presentation"><a href="#stages" aria-controls="stages" role="tab" data-toggle="pill"><strong>Stages</strong></a></li>
+                    <li role="presentation"><a href="#associatif" aria-controls="associatif" role="tab" data-toggle="pill"><strong>Associatif</strong></a></li>
                 </ul>
                 <!-- FIN Onglets -->
             </div>
@@ -70,27 +80,51 @@
             <div class="col-md-12">
                 <!-- DEBUT Contenu Onglets -->
                 <div class="tab-content">
-                    <dl class="dl-horizontal tab-pane fade in active" id="etudes"> <dt>2009 - 2012</dt>
-                        <dd>Etudes secondaires au Lycée Hoche à Versailles</dd> <dt>Juin 2012</dt>
-                        <dd> Obtention du Baccalauréat Général Scientifique, option Sciences de la Vie et de la Terre, spécialité Physique - Chimie
-                            <br>Mention Bien </dd> <dt>2012 - 2014</dt>
-                        <dd> PACES à Paris Descartes
-                            <br>Redoublement en 2013
-                            <br>Reçu-collé au concours en 2014 </dd> <dt>2014 - 2016</dt>
-                        <dd> Entrée en L2 Sciences pour la Santé (Université Paris Descartes) en équivalence en septembre 2014
-                            <br>Obtention de la 2ème année de licence (L2) en 1ère session
-                            <br>Obtention de la 3ème année de licence (L3) en 1ère session </dd> <dt>Juin 2016</dt>
-                        <dd>Obtention de la licence Sciences et Technologies - Mention Sciences pour la Santé</dd> <dt>2016 - 2017</dt>
-                        <dd>Entrée en 1ère année d'Ingésup (B1) sur le campus d'Ynov Paris</dd>
+                    <dl class="dl-horizontal tab-pane fade in active" id="etudes">
+                        <dt>2009 - 2012</dt>
+                        <dd><strong>Etudes secondaires au Lycée Hoche à Versailles</strong></dd>
+                        <dt><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Juin 2012</dt>
+                        <dd>
+                            <strong>Obtention du Baccalauréat Général Scientifique</strong>
+                            <ul>
+                                <li>Option Sciences de la Vie et de la Terre</li>
+                                <li>Spécialité Physique - Chimie</li>
+                                <li>Mention Bien </li>
+                            </ul>
+                        </dd>
+                        <dt>2012 - 2014</dt>
+                        <dd>
+                            <strong>Entrée en PACES à Paris Descartes</strong>
+                            <ul>
+                                <li>Redoublement en 2013</li>
+                                <li>Reçu-collé au concours en 2014</li>
+                            </ul>
+                        </dd>
+                        <dt>2014 - 2016</dt>
+                        <dd><strong>Entrée en L2 Sciences pour la Santé (Université Paris Descartes) en équivalence en septembre 2014</strong>
+                            <ul>
+                                <li>Obtention de la 2ème année de licence (L2) en 1ère session</li>
+                                <li>Obtention de la 3ème année de licence (L3) en 1ère session</li>
+                            </ul>
+                        </dd>
+                        <dt><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Juin 2016</dt>
+                        <dd><strong>Obtention de la licence Sciences et Technologies - Mention Sciences pour la Santé</strong></dd>
+                        <dt>2016 - 2017</dt>
+                        <dd><strong>Entrée en 1ère année d'Ingésup (B1) sur le campus d'Ynov Paris</strong></dd>
                     </dl>
-                    <dl class="dl-horizontal tab-pane fade" id="stages"> <dt>Février 2009</dt>
-                        <dd> Stage d'une semaine à Grand Optical
-                            <br>Fabrication de verres de lunettes et montage
-                            <br>Accueil des clients </dd>
+                    <dl class="dl-horizontal tab-pane fade" id="stages">
+                        <dt>Février 2009</dt>
+                        <dd>
+                            <strong>Stage d'une semaine à Grand Optical</strong>
+                            <ul>
+                                <li>Fabrication de verres de lunettes et montage</li>
+                                <li>Accueil des clients</li>
+                            </ul>
+                        </dd>
                     </dl>
-                    <dl class="dl-horizontal tab-pane fade" id="associatif"> <dt>2014 - 2015</dt>
-                        <dd>Membre Actif de l'Amicale Paris Sciences
-                            <br>
+                    <dl class="dl-horizontal tab-pane fade" id="associatif">
+                        <dt>2014 - 2015</dt>
+                        <dd><strong>Membre Actif de l'Amicale Paris Sciences</strong>
                             <ul>
                                 <li>Réalisation de projets tout au long de l'année :
                                     <ul>
@@ -105,9 +139,11 @@
                                     </ul>
                                 </li>
                             </ul>
-                        </dd> <dt>2015 - 2016</dt>
-                        <dd>Vice-Président chargé de communication à l'Amicale Paris Sciences</dd> <dt>2016 - 2017</dt>
-                        <dd>Membre Ancien de l'Amicale Paris Sciences</dd>
+                        </dd>
+                        <dt>2015 - 2016</dt>
+                        <dd><strong>Vice-Président chargé de communication à l'Amicale Paris Sciences</strong></dd>
+                        <dt>2016 - 2017</dt>
+                        <dd><strong>Membre Ancien de l'Amicale Paris Sciences</strong></dd>
                     </dl>
                 </div>
                 <!-- FIN Conetnu Onglets -->
