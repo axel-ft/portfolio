@@ -7,6 +7,7 @@
     <title>Mon Portfolio</title>
     <link rel="stylesheet" href="css/style-general.css">
     <link rel="stylesheet" href="css/style-menu.css">
+    <link rel="stylesheet" href="css/style-parcours-pro.css">
     <!-- BOOTSTRAP -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -77,47 +78,59 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-10">
+            <div class="col-sm-12">
                 <!-- DEBUT Contenu Onglets -->
                 <div class="tab-content">
-                    <div id="etudes" class="tab-pane fade in active">
-                        <dl class="dl-horizontal">
-                            <dt>2009 - 2012</dt>
-                            <dd><strong>Etudes secondaires au Lycée Hoche à Versailles</strong></dd>
-                            <dt><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Juin 2012</dt>
-                            <dd>
-                                <strong>Obtention du Baccalauréat Général Scientifique</strong>
-                                <ul>
-                                    <li>Option Sciences de la Vie et de la Terre</li>
-                                    <li>Spécialité Physique - Chimie</li>
-                                    <li>Mention Bien </li>
-                                </ul>
-                            </dd>
-                        </dl>
-                        <dl class="dl-horizontal">
-                            <dt>2012 - 2014</dt>
-                            <dd>
-                                <strong>Entrée en PACES à Paris Descartes</strong>
-                                <ul>
-                                    <li>Redoublement en 2013</li>
-                                    <li>Reçu-collé au concours en 2014</li>
-                                </ul>
-                            </dd>
-                            <dt>2014 - 2016</dt>
-                            <dd><strong>Entrée en L2 Sciences pour la Santé (Université Paris Descartes) en équivalence en septembre 2014</strong>
-                                <ul>
-                                    <li>Obtention de la 2ème année de licence (L2) en 1ère session</li>
-                                    <li>Obtention de la 3ème année de licence (L3) en 1ère session</li>
-                                </ul>
-                            </dd>
-                            <dt><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Juin 2016</dt>
-                            <dd><strong>Obtention de la licence Sciences et Technologies - Mention Sciences pour la Santé</strong></dd>
-                        </dl>
-                        <dl class="dl-horizontal">
-                            <dt>2016 - 2017</dt>
-                            <dd><strong>Entrée en 1ère année d'Ingésup (B1) sur le campus d'Ynov Paris</strong></dd>
-                        </dl>
+                    <!-- DEBUT Etudes -->
+                    <div class="row tab-pane fade in active" id="etudes">
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <dl class="dl-horizontal">
+                                <dt>2009 - 2012</dt>
+                                <dd><strong>Etudes secondaires au Lycée Hoche à Versailles</strong></dd>
+                                <dt><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Juin 2012</dt>
+                                <dd>
+                                    <strong>Obtention du Baccalauréat Général Scientifique</strong>
+                                    <ul>
+                                        <li>Option Sciences de la Vie et de la Terre</li>
+                                        <li>Spécialité Physique - Chimie</li>
+                                        <li>Mention Bien </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                            <hr>
+                            <dl class="dl-horizontal">
+                                <dt>2012 - 2014</dt>
+                                <dd>
+                                    <strong>Entrée en PACES à Paris Descartes</strong>
+                                    <ul>
+                                        <li>Redoublement en 2013</li>
+                                        <li>Reçu-collé au concours en 2014</li>
+                                    </ul>
+                                </dd>
+                                <dt>2014 - 2016</dt>
+                                <dd><strong>Entrée en L2 Sciences pour la Santé (Université Paris Descartes) en équivalence en septembre 2014</strong>
+                                    <ul>
+                                        <li>Obtention de la 2ème année de licence (L2) en 1ère session</li>
+                                        <li>Obtention de la 3ème année de licence (L3) en 1ère session</li>
+                                    </ul>
+                                </dd>
+                                <dt><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Juin 2016</dt>
+                                <dd><strong>Obtention de la licence Sciences et Technologies - Mention Sciences pour la Santé</strong></dd>
+                            </dl>
+                            <hr>
+                            <dl class="dl-horizontal">
+                                <dt>2016 - 2017</dt>
+                                <dd><strong>Entrée en 1ère année d'Ingésup (B1) sur le campus d'Ynov Paris</strong></dd>
+                            </dl>
+                        </div>
+                        <div class="col-sm-3 col-md-2 hidden-xs">
+                            <img src="img/parcours-pro/hoche.jpg" alt="" class="img-responsive img-rounded center-block" width="90" id="logo-hoche">
+                            <img src="img/parcours-pro/descartes.png" alt="" class="img-responsive img-rounded center-block" id="logo-descartes">
+                            <img src="img/parcours-pro/ingesup.jpg" alt="" class="img-responsive img-rounded center-block" id="logo-ingesup">
+                        </div>
                     </div>
+                    <!-- FIN Etudes -->
+                    <!-- DEBUT Stages -->
                     <dl class="dl-horizontal tab-pane fade" id="stages">
                         <dt>Février 2009</dt>
                         <dd>
@@ -128,6 +141,8 @@
                             </ul>
                         </dd>
                     </dl>
+                    <!-- FIN Stages -->
+                    <!-- DEBUT Associatif -->
                     <dl class="dl-horizontal tab-pane fade" id="associatif">
                         <dt>2014 - 2015</dt>
                         <dd><strong>Membre Actif de l'Amicale Paris Sciences</strong>
@@ -151,12 +166,8 @@
                         <dt>2016 - 2017</dt>
                         <dd><strong>Membre Ancien de l'Amicale Paris Sciences</strong></dd>
                     </dl>
+                    <!-- FIN Associatif -->
                 </div>
-            </div>
-            <div class="col-md-2 hidden-xs hidden-sm">
-                <img src="img/parcours-pro/hoche.jpg" alt="" class="img-responsive img-rounded center-block" width="90">
-                <img src="img/parcours-pro/descartes.png" alt="" class="img-responsive img-rounded center-block">
-                <img src="img/parcours-pro/ingesup.jpg" alt="" class="img-responsive img-rounded center-block">
             </div>
             <!-- FIN Conetnu Onglets -->
         </div>

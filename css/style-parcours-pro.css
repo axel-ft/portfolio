@@ -1,0 +1,39 @@
+#logo-descartes {
+    background: white;
+    padding: 5px;
+}
+
+#logo-ingesup {
+    padding: 5px;
+    background: white;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #logo-hoche {
+        margin-top: 10px;
+    }
+    #logo-descartes {
+        margin-top: 140px;
+    }
+    #logo-ingesup {
+        margin-top: 110px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #logo-descartes {
+        margin-top: 130px;
+    }
+    #logo-ingesup {
+        margin-top: 85px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #logo-descartes {
+        margin-top: 110px;
+    }
+    #logo-ingesup {
+        margin-top: 75px;
+    }
+}
