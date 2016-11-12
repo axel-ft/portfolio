@@ -2,3 +2,7 @@
     margin-top: -10px;
     color: #333;
 }
+
+nav {
+    border-radius: 0px !important;
+}
