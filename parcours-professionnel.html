@@ -25,7 +25,7 @@
     <header>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
+                <!-- DEBUT Titre site et logo menu mobile -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
@@ -37,7 +37,8 @@
                         <h1>Axel FT<small>Portfolio</small></h1>
                     </a>
                 </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
+                <!-- FIN Titre site et logo menu mobile -->
+                <!-- DEBUT liens menu -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li><a href="index.html">Présentation Personnelle</a></li>
@@ -60,9 +61,9 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-                <!-- /.navbar-collapse -->
+                <!-- FIN Liens menu -->
             </div>
-            <!-- /.container-fluid -->
+            <!-- FIN container-fluid -->
         </nav>
     </header>
     <div class="container">
@@ -77,7 +78,7 @@
                 <!-- FIN Onglets -->
             </div>
         </div>
-        <div class="row">
+        <div class="row text-justify">
             <div class="col-sm-12">
                 <!-- DEBUT Contenu Onglets -->
                 <div class="tab-content">
@@ -131,47 +132,62 @@
                     </div>
                     <!-- FIN Etudes -->
                     <!-- DEBUT Stages -->
-                    <dl class="dl-horizontal tab-pane fade" id="stages">
-                        <dt>Février 2009</dt>
-                        <dd>
-                            <strong>Stage d'une semaine à Grand Optical</strong>
-                            <ul>
-                                <li>Fabrication de verres de lunettes et montage</li>
-                                <li>Accueil des clients</li>
-                            </ul>
-                        </dd>
-                    </dl>
+                    <div class="row tab-pane fade" id="stages">
+                        <div class="col-xs-12 col-sm-9 col-md-8">
+                            <dl class="dl-horizontal">
+                                <dt>Février 2009</dt>
+                                <dd>
+                                    <strong>Stage d'une semaine à Grand Optical</strong>
+                                    <ul>
+                                        <li>Fabrication de verres de lunettes et montage</li>
+                                        <li>Accueil des clients</li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="col-sm-3 col-md-4 hidden-xs">
+                            <img src="img/parcours-pro/grandoptical.png" alt="" class="img-responsive img-rounded center-block" id="logo-grdopt">
+                        </div>
+                    </div>
                     <!-- FIN Stages -->
                     <!-- DEBUT Associatif -->
-                    <dl class="dl-horizontal tab-pane fade" id="associatif">
-                        <dt>2014 - 2015</dt>
-                        <dd><strong>Membre Actif de l'Amicale Paris Sciences</strong>
-                            <ul>
-                                <li>Réalisation de projets tout au long de l'année :
+                    <div class="row tab-pane fade" id="associatif">
+                        <div class="col-xs-12 col-sm-9 col-md-8">
+                            <dl class="dl-horizontal">
+                                <dt>2014 - 2015</dt>
+                                <dd><strong>Membre Actif de l'Amicale Paris Sciences</strong>
                                     <ul>
-                                        <li>De nombreux petits projets</li>
-                                        <li>Quelques projets de plus grande importance</li>
+                                        <li>Réalisation de projets tout au long de l'année :
+                                            <ul>
+                                                <li>De nombreux petits projets</li>
+                                                <li>Quelques projets de plus grande importance</li>
+                                            </ul>
+                                        </li>
+                                        <li>Organisation d'événements :
+                                            <ul>
+                                                <li>Des petits déjeuners ou des afterworks</li>
+                                                <li>Des soirées ou des voyages</li>
+                                            </ul>
+                                        </li>
                                     </ul>
-                                </li>
-                                <li>Organisation d'événements :
-                                    <ul>
-                                        <li>Des petits déjeuners ou des afterworks</li>
-                                        <li>Des soirées ou des voyages</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </dd>
-                        <dt>2015 - 2016</dt>
-                        <dd><strong>Vice-Président chargé de communication à l'Amicale Paris Sciences</strong></dd>
-                        <dt>2016 - 2017</dt>
-                        <dd><strong>Membre Ancien de l'Amicale Paris Sciences</strong></dd>
-                    </dl>
+                                </dd>
+                                <dt>2015 - 2016</dt>
+                                <dd><strong>Vice-Président chargé de communication à l'Amicale Paris Sciences</strong></dd>
+                                <dt>2016 - 2017</dt>
+                                <dd><strong>Membre Ancien de l'Amicale Paris Sciences</strong></dd>
+                            </dl>
+                        </div>
+                        <div class="col-sm-3 col-md-4 hidden-xs">
+                            <img src="img/parcours-pro/aps.png" alt="" class="img-responsive img-rounded center-block" id="logo-aps" width="200">
+                        </div>
+                    </div>
                     <!-- FIN Associatif -->
                 </div>
             </div>
             <!-- FIN Conetnu Onglets -->
         </div>
     </div>
+    <!-- FIN container -->
     <!-- JQUERY ET BOOTSRAP JS-->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
