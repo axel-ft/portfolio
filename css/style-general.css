@@ -2,3 +2,7 @@ body {
     background: url('../img/dark_mosaic.png') repeat scroll;
     color: white !important;
 }
+
+ul[role="tablist"] {
+    margin-bottom: 25px;
+}
