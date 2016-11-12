@@ -1,6 +1,14 @@
 body {
     background: url('../img/type.png') repeat scroll;
     color: white !important;
+    height: 100%;
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto;
+    margin-bottom: -40px;
+    padding-bottom: 60px;
 }
 
 ul[role="tablist"] {
