@@ -21,13 +21,10 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     #logo-hoche {
-        margin-top: 10px;
+        margin-top: 25px;
     }
     #logo-descartes {
-        margin-top: 140px;
-    }
-    #logo-ingesup {
-        margin-top: 140px;
+        margin-top: 110px;
     }
     #logo-grdopt {
         margin-top: 15px;
@@ -38,11 +35,14 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+    #logo-hoche {
+        margin-top: 20px;
+    }
     #logo-descartes {
-        margin-top: 130px;
+        margin-top: 70px;
     }
     #logo-ingesup {
-        margin-top: 85px;
+        margin-top: -5px;
     }
     #logo-aps {
         margin-top: 15px;
@@ -50,11 +50,14 @@
 }
 
 @media screen and (min-width: 1200px) {
+    #logo-hoche {
+        margin-top: 20px;
+    }
     #logo-descartes {
-        margin-top: 110px;
+        margin-top: 50px;
     }
     #logo-ingesup {
-        margin-top: 70px;
+        margin-top: -10px;
     }
     #logo-aps {
         margin-top: 5px
