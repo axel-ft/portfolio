@@ -28,15 +28,9 @@
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                     <a class="navbar-brand" href="index.html">
-                        <h1>Axel FT  <small>Portfolio</small></h1>
-                    </a>
+                        <h1>Axel FT  <small>Portfolio</small></h1> </a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -66,49 +60,65 @@
             <!-- /.container-fluid -->
         </nav>
     </header>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <p class="text-justify">Vous pouvez me contacter pour toute questions via le formulaire ci-dessous ou directement à mon adresse mail :
-                    <script>
-                        genererAdresse();
-                    </script>
-                </p>
+    <div id="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <p class="text-justify">Vous pouvez me contacter pour toute questions via le formulaire ci-dessous ou directement à mon adresse mail :
+                        <script>
+                            genererAdresse();
+                        </script>
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <form action="#" method="get" class="form-horizontal" id="form-contact">
-                    <div class="form-group">
-                        <label for="prenom" class="col-sm-2 control-label">Prénom</label>
-                        <div class="col-sm-4">
-                            <input type="text" name="prenom" id="prenom" class="form-control" required title="Entrez votre prénom" placeholder="Jean" pattern="[a-zA-Z àáâãäåÀÁÂèéêëÈÉÊËìíîïÌÍÎÏòóôõöøÒÓÔÕÖØùúûüÙÚÛÜÿçÇñÑ]{1,}">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <form action="#" method="get" class="form-horizontal" id="form-contact">
+                        <div class="form-group">
+                            <label for="prenom" class="col-sm-2 control-label">Prénom</label>
+                            <div class="col-sm-4">
+                                <input type="text" name="prenom" id="prenom" class="form-control" required title="Entrez votre prénom" placeholder="Jean" pattern="[a-zA-Z àáâãäåÀÁÂèéêëÈÉÊËìíîïÌÍÎÏòóôõöøÒÓÔÕÖØùúûüÙÚÛÜÿçÇñÑ]{1,}"> </div>
+                            <label for="nom" class="col-sm-2 control-label">Nom</label>
+                            <div class="col-sm-4">
+                                <input type="text" name="nom" id="nom" class="form-control" required title="Entrez votre nom de famille" placeholder="Dupont" pattern="[a-zA-Z àáâãäåÀÁÂèéêëÈÉÊËìíîïÌÍÎÏòóôõöøÒÓÔÕÖØùúûüÙÚÛÜÿçÇñÑ]{1,}"> </div>
                         </div>
-                        <label for="nom" class="col-sm-2 control-label">Nom</label>
-                        <div class="col-sm-4">
-                            <input type="text" name="nom" id="nom" class="form-control" required title="Entrez votre nom de famille" placeholder="Dupont" pattern="[a-zA-Z àáâãäåÀÁÂèéêëÈÉÊËìíîïÌÍÎÏòóôõöøÒÓÔÕÖØùúûüÙÚÛÜÿçÇñÑ]{1,}">
+                        <div class="form-group">
+                            <label for="email" class="col-sm-2 control-label">E-mail</label>
+                            <div class="col-sm-4">
+                                <input type="email" name="email" id="email" class="form-control" required title="Entrez votre adresse mail" placeholder="adresse@example.com"> </div>
+                            <label for="tel" class="col-sm-2 control-label">Téléphone</label>
+                            <div class="col-sm-4">
+                                <input type="tel" name="tel" id="tel" class="form-control" required title="Entrez votre numéro de téléphone" placeholder="0XXXXXXXXX" pattern="[0][12345679][0-9]{8}" maxlength="10"> </div>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="email" class="col-sm-2 control-label">E-mail</label>
-                        <div class="col-sm-4">
-                            <input type="email" name="email" id="email" class="form-control" required title="Entrez votre adresse mail" placeholder="adresse@example.com"> </div>
-                        <label for="tel" class="col-sm-2 control-label">Téléphone</label>
-                        <div class="col-sm-4">
-                            <input type="tel" name="tel" id="tel" class="form-control" required title="Entrez votre numéro de téléphone" placeholder="0XXXXXXXXX" pattern="[0][12345679][0-9]{8}" maxlength="10"> </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <textarea name="message" id="message" class="form-control" cols="30" rows="10" placeholder="Votre message..." required></textarea>
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <textarea name="message" id="message" class="form-control" cols="30" rows="10" placeholder="Votre message..." required></textarea>
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group text-center">
-                        <button type="submit" id="envoyer" class="btn btn-default">Envoyer !</button>
-                    </div>
-                </form>
+                        <div class="form-group text-center">
+                            <button type="submit" id="envoyer" class="btn btn-default">Envoyer !</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
+    <footer class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <div class="navbar-left">
+                <p class="text-muted">© Copyright 2016 Axel Floquet-Trillot</p>
+            </div>
+            <div class="navbar-right">
+                <script type="text/javascript">
+                    genererIconeMail();
+                </script>
+                <a href="https://www.facebook.com/axelft"><img src="" alt="Facebook"></a>
+                <a href="https://www.linkedin.com/axelft"><img src="" alt="LinkedIn"></a>
+                <a href="https://www.3dhubs.com/hubs/axelft0"><img src="" alt="3DHubs"></a>
+                <a href="https://bitbucket.org/axelft/"><img src="" alt="BitBucket"></a>
+            </div>
+        </div>
+    </footer>
     <!-- JQUERY ET BOOTSRAP JS-->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>

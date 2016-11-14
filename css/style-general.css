@@ -24,3 +24,7 @@ body {
 ul[role="tablist"] {
     margin-bottom: 25px;
 }
+
+footer .container {
+    margin-top: 12px;
+}

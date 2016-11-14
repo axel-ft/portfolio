@@ -1,9 +1,12 @@
-#ligne-temps {
+.ligne-temps {
     width: 6px;
     height: 1360px;
     background: #337ab7;
-    position: relative;
-    left: 300px;
+    position: absolute;
+    left: 49.5%;
+    top: -35px;
+    border-radius: 3px;
+    z-index: -1;
 }
 
 .filiere {
