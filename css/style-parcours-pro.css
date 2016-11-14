@@ -1,3 +1,11 @@
+#ligne-temps {
+    width: 6px;
+    height: 1360px;
+    background: #337ab7;
+    position: relative;
+    left: 300px;
+}
+
 .filiere {
     background: rgba(255, 255, 255, 0.25);
     padding: 10px;
