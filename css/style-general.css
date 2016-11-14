@@ -4,6 +4,16 @@ body {
     height: 100%;
 }
 
+.flex {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
 #wrapper {
     min-height: 100%;
     height: auto;
