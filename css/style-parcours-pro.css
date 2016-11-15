@@ -47,17 +47,23 @@ div.date {
     height: 120px;
     width: 120px;
     background: #337ab7;
-    animation: bubble-size 0.6s;
+    animation: bubble-size 0.55s;
+}
+
+#logo-hoche {
+    margin-top: 120px;
 }
 
 #logo-descartes {
     background: white;
     padding: 5px;
+    margin-top: 240px;
 }
 
 #logo-ingesup {
     padding: 5px;
     background: white;
+    margin-top: 60px;
 }
 
 #logo-grdopt {
@@ -78,14 +84,16 @@ div.date {
     div.date h4 {
         font-size: 14px;
     }
+    #logo-hoche,
+    #logo-descartes,
+    #logo-ingesup {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    #logo-hoche {
-        margin-top: 25px;
-    }
-    #logo-descartes {
-        margin-top: 110px;
+    #logo-ingesup {
+        margin-top: 60px;
     }
     #logo-grdopt {
         margin-top: 15px;
@@ -96,11 +104,8 @@ div.date {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-    #logo-hoche {
-        margin-top: 20px;
-    }
     #logo-descartes {
-        margin-top: 70px;
+        margin-top: 225px;
     }
     #logo-ingesup {
         margin-top: -5px;
@@ -111,14 +116,11 @@ div.date {
 }
 
 @media screen and (min-width: 1200px) {
-    #logo-hoche {
-        margin-top: 20px;
-    }
     #logo-descartes {
-        margin-top: 50px;
+        margin-top: 216px;
     }
     #logo-ingesup {
-        margin-top: -10px;
+        margin-top: 60px;
     }
     #logo-aps {
         margin-top: 5px
