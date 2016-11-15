@@ -1,11 +1,28 @@
-html {
-    overflow-x: hidden;
-}
-
 body {
     background: url('../img/type.png') repeat scroll;
     color: white !important;
     height: 100%;
+}
+
+.navbar-brand h1 {
+    margin-top: -10px;
+    color: #333;
+}
+
+nav {
+    border-radius: 0px !important;
+}
+
+#img-header {
+    margin-top: -20px;
+    background: url('../img/presentation/biocode.png') no-repeat scroll center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#img-profile {
+    width: 204px;
+    border: 2px solid #22223e;
 }
 
 .flex {
