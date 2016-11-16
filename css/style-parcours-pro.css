@@ -101,6 +101,7 @@ div.date {
         position: relative !important;
         bottom: 40px !important;
         padding-bottom: 15px;
+        margin-bottom: -40px !important;
     }
 }
 
