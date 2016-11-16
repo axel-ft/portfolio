@@ -1,7 +1,12 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     background: url('../img/type.png') repeat scroll;
     color: white !important;
     height: 100%;
+    overflow-x: hidden;
 }
 
 .navbar-brand h1 {
