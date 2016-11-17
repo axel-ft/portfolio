@@ -45,6 +45,10 @@ nav {
     flex-direction: row;
 }
 
+.flex img {
+    margin-bottom: 15px;
+}
+
 ul[role="tablist"] {
     margin-bottom: 25px;
 }
@@ -69,5 +73,14 @@ footer .navbar-right img {
         position: relative !important;
         margin-top: 10px;
         padding-bottom: 15px;
+    }
+    .flex-row {
+        flex-direction: column;
+    }
+    .flex-row-reverse {
+        flex-direction: column-reverse;
+    }
+    footer .flex-row {
+        flex-direction: row;
     }
 }
