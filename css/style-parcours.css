@@ -46,8 +46,8 @@
 
 div.date {
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     background: #337ab7;
     animation: bubble-size 0.55s;
 }
