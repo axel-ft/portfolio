@@ -1,0 +1,41 @@
+#img-header {
+    margin-top: -20px;
+    background: url('../img/presentation/biocode.jpg') no-repeat scroll center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#img-profile {
+    width: 204px;
+    border: 2px solid #22223e;
+}
+
+@media screen and (max-width: 767px) {
+    #img-header {
+        min-height: 220px;
+    }
+    #img-profile {
+        width: 120px;
+        border-width: 0.5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #img-header {
+        min-height: 280px;
+    }
+    #img-profile {
+        width: 150px;
+        border-width: 0.5px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #img-header {
+        min-height: 330px;
+    }
+    #img-profile {
+        width: 170px;
+        border-width: 1px;
+    }
+}
