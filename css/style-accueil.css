@@ -19,9 +19,6 @@
 }
 
 @media screen and (max-width: 767px) {
-    #img-header {
-        min-height: 220px;
-    }
     #img-profile {
         width: 120px;
         border-width: 0.5px;
