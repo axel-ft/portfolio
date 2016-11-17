@@ -1,136 +1,179 @@
-@keyframes chronology {
-    0% {
-        height: 0px;
-    }
-    100% {
-        height: 1180px;
-    }
-}
-
-.ligne-temps {
-    width: 6px;
-    height: 1180px;
-    background: #337ab7;
-    position: absolute;
-    left: 49.2%;
-    top: -35px;
-    border-radius: 3px;
-    z-index: -1;
-    animation: chronology 1.5s;
-    display: none;
-    /*A finir si il me reste du temps*/
-}
-
-.filiere {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 50px;
-}
-
-.filiere div.row {
-    padding: 25px 0;
-}
-
-@keyframes bubble-size {
-    0% {
-        transform: scale(0);
-    }
-    80% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-div.date {
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    background: #337ab7;
-    animation: bubble-size 0.55s;
-}
-
-.logo-hoche {
-    margin-top: 120px;
-}
-
-.logo-descartes {
-    background: white;
-    padding: 5px;
-    margin-top: 240px;
-}
-
-.logo-ingesup {
-    padding: 5px;
-    background: white;
-    margin-top: 60px;
-}
-
-.logo-grdopt {
-    background: white;
-    padding: 5px;
-    margin-top: 63px;
-}
-
-@media screen and (max-width: 767px) {
-    .ligne-temps {
-        top: -185px;
-        height: 1230px;
-        width: 3px;
-    }
-    div.date {
-        width: 80px;
-        height: 80px;
-    }
-    div.date h4 {
-        font-size: 14px;
-    }
-    .logo-hoche,
-    .logo-descartes,
-    .logo-ingesup,
-    .logo-grdopt {
-        margin-top: 10px;
-    }
-    html,
-    body {
-        overflow-x: hidden;
-    }
-    .tab-pane .flex-row {
-        flex-direction: row !important;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    .logo-ingesup {
-        margin-top: 60px;
-    }
-    .logo-aps {
-        margin-top: 40px;
-    }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-    .logo-descartes {
-        margin-top: 225px;
-    }
-    .logo-ingesup {
-        margin-top: -5px;
-    }
-    .logo-aps {
-        margin-top: 15px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .logo-descartes {
-        margin-top: 216px;
-    }
-    .logo-ingesup {
-        margin-top: 60px;
-    }
-    .logo-aps {
-        margin-top: 5px
-    }
-}
+                @keyframes chronology {
+                    0% {
+                        height: 0px;
+                    }
+                    100% {
+                        height: 1180px;
+                    }
+                }
+                
+                .ligne-temps {
+                    width: 6px;
+                    height: 1180px;
+                    background: #337ab7;
+                    position: absolute;
+                    left: 49.2%;
+                    top: -35px;
+                    border-radius: 3px;
+                    z-index: -1;
+                    animation: chronology 1.5s;
+                    display: none;
+                    /*A finir si il me reste du temps*/
+                }
+                
+                .filiere {
+                    background: rgba(255, 255, 255, 0.1);
+                    padding: 10px;
+                    border-radius: 5px;
+                    margin-bottom: 50px;
+                }
+                
+                .filiere div.row {
+                    padding: 25px 0;
+                }
+                
+                @keyframes bubble-size {
+                    0% {
+                        transform: scale(0);
+                    }
+                    80% {
+                        transform: scale(1.1);
+                    }
+                    100% {
+                        transform: scale(1);
+                    }
+                }
+                
+                div.date {
+                    border-radius: 50%;
+                    height: 150px;
+                    width: 150px;
+                    background: #337ab7;
+                    animation: bubble-size 0.55s;
+                }
+                
+                .logo-hoche {
+                    margin-top: 140px;
+                }
+                
+                .logo-descartes {
+                    background: white;
+                    padding: 5px;
+                }
+                
+                .logo-ingesup {
+                    padding: 5px;
+                    background: white;
+                }
+                
+                .logo-grdopt {
+                    background: white;
+                    padding: 5px;
+                }
+                
+                .aikido {
+                    margin-top: 140px;
+                }
+                
+                @media screen and (max-width: 767px) {
+                    .ligne-temps {
+                        top: -185px;
+                        height: 1230px;
+                        width: 3px;
+                    }
+                    div.date {
+                        width: 80px;
+                        height: 80px;
+                    }
+                    div.date h4 {
+                        font-size: 14px;
+                    }
+                    .logo-hoche,
+                    .logo-descartes,
+                    .logo-ingesup,
+                    .logo-grdopt,
+                    .cible,
+                    .gym,
+                    .mtb,
+                    .aikido,
+                    .natation,
+                    .printer {
+                        margin-top: 10px;
+                    }
+                    html,
+                    body {
+                        overflow-x: hidden;
+                    }
+                    .tab-pane .flex-row {
+                        flex-direction: row !important;
+                    }
+                }
+                
+                @media screen and (min-width: 768px) and (max-width: 991px) {
+                    .logo-ingesup {
+                        margin-top: 60px;
+                    }
+                    .logo-aps {
+                        margin-top: 40px;
+                    }
+                    .cible {
+                        margin-top: 46px;
+                    }
+                    .gym,
+                    .mtb,
+                    .natation {
+                        margin-top: 45px;
+                    }
+                    .printer {
+                        margin-top: -350px;
+                    }
+                    .camera {
+                        margin-top: 60px
+                    }
+                }
+                
+                @media screen and (min-width: 992px) and (max-width: 1199px) {
+                    .logo-descartes {
+                        margin-top: 225px;
+                    }
+                    .logo-ingesup {
+                        margin-top: -5px;
+                    }
+                    .logo-aps {
+                        margin-top: 15px;
+                    }
+                    .cible,
+                    .mtb,
+                    .natation,
+                    .camera {
+                        margin-top: 55px;
+                    }
+                    .gym {
+                        margin-top: 56px;
+                    }
+                    .printer {
+                        margin-top: -200px;
+                    }
+                }
+                
+                @media screen and (min-width: 1200px) {
+                    .logo-descartes {
+                        margin-top: 216px;
+                    }
+                    .logo-ingesup {
+                        margin-top: 60px;
+                    }
+                    .logo-aps {
+                        margin-top: 5px
+                    }
+                    .cible,
+                    .gym,
+                    .mtb,
+                    .natation,
+                    .camera {
+                        margin-top: 45px;
+                    }
+                    .printer {
+                        margin-top: -200px;
+                    }
+                }

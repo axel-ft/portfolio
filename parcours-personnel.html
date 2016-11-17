@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
     <link rel="stylesheet" href="css/style-general.css">
     <link rel="stylesheet" href="css/style-parcours.css">
+    <script type="text/javascript" src="js/mail.js"></script>
     <!-- BOOTSTRAP -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -76,15 +77,16 @@
             <!-- /.container-fluid -->
         </nav>
     </header>
+
     <!-- DEBUT container -->
     <div class="container wrapper">
         <div class="row">
             <div class="col-md-12">
                 <!-- DEBUT Onglets -->
                 <ul class="nav nav-pills nav-justified" role="tablist">
-                    <li class="active" role="presentation"><a href="#sports" aria-controls="sports" role="tab" data-toggle="pill"><strong>Sports</strong></a></li>
-                    <li role="presentation"><a href="#stages" aria-controls="stage" role="tab" data-toggle="pill"><strong>Activités</strong></a></li>
-                    <li role="presentation"><a href="#associatif" aria-controls="associatif" role="tab" data-toggle="pill"><strong>Apprentissage</strong></a></li>
+                    <li class="active" role="presentation"><a href="#stages" aria-controls="stage" role="tab" data-toggle="pill"><strong>Activités</strong></a></li>
+                    <li style="display:none" role="presentation"><a href="#associatif" aria-controls="associatif" role="tab" data-toggle="pill"><strong>Apprentissage</strong></a></li>
+                    <li role="presentation"><a href="#sports" aria-controls="sports" role="tab" data-toggle="pill"><strong>Sports</strong></a></li>
                 </ul>
                 <!-- FIN Onglets -->
             </div>
@@ -92,11 +94,113 @@
         <div class="row text-justify">
             <!-- DEBUT Contenu Onglets -->
             <div class="tab-content">
-                <!-- DEBUT Etudes -->
-                <div class="tab-pane fade in active" id="sports">
+                <!-- DEBUT Activités -->
+                <div class="tab-pane fade in active" id="stages">
                     <div class="row filiere">
                         <div class="row visible-xs">
-                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-pro/hoche.jpg" alt="" class="img-responsive img-rounded center-block logo-hoche" width="130">
+                            <div class="visible-xs col-xs-offset-3 col-xs-6"> <img src="img/parcours-perso/3dprinter.jpg" alt="" class="img-responsive img-rounded center-block printer">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>Impression 3D</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>J'imprime vos pièces en 3D !</strong></p>
+                                    <p>L'impression 3D est devenue, depuis juin 2016, une activité principale pendant mon temps libre. Je dispose d'une Original Prusa i3 MK2, montée à sa réception.</p>
+                                    <p>Le volume d'impression disponible est de 25cm x 21cm x 20cm (LxPxH), et la précision peut aller jusqu'à 50µm.</p>
+                                    <p>J'imprime des pièces pour moi, et je suis référencé en tant que particulier sur <a href="https://www.3dhubs.com/paris/hubs/axel-0" title="Mon profil sur 3DHubs">3DHubs</a>, un site de vente de pièces imprimées. Le principe est très simple :</p>
+                                    <ul>
+                                        <li>Une personne m'envoie un ou plusieurs modèles via le site</li>
+                                        <li>Je vérifie ses fichiers et peut accepter (ou décliner) la commande</li>
+                                        <li>Le client procède au paiement juste avant le début de l'impression</li>
+                                        <li>Dès l'impression terminée, la livraison est programmée</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>Modelisation 3D</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>3D Studio Max</strong></p>
+                                    <p>Que ce soit pour l'impression ou le plaisir de dessiner, je maîtrise le logiciel de modélisation 3D Studio Max pour réaliser scènes et objets.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/3dprinter.jpg" alt="" class="img-responsive img-rounded center-block printer"> </div>
+                    </div>
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="visible-xs col-xs-offset-3 col-xs-6"> <img src="img/parcours-perso/vis.jpg" alt="" class="img-responsive img-rounded center-block vis">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>Sites</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>Je participe à la création / modification de certains sites</strong></p>
+                                    <p>Quelques fois par mois, j'aide à modifier ou à placer des éléments sur un site d'actualité artistique : <a href="http://www.osmosart.com" target="_blank">Osmosart</a></p>
+                                    <p>J'ai également proposé à un médecin du sport de refaire son site, celui-ci n'étant pas responsive, et donc non adapté aux affichages actuels tels que les téléphones.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>Reparations</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>Nettoyage, installation et réparation d'ordinateurs</strong></p>
+                                    <p>On me prête régulièrement des ordinateurs afin de les réparer, de réinstaller le système d'exploitation</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/vis.jpg" alt="" class="img-responsive img-rounded center-block vis"> </div>
+                    </div>
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="visible-xs col-xs-offset-3 col-xs-6"> <img src="img/parcours-perso/camera.jpg" alt="" class="img-responsive img-rounded center-block camera">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>Autres</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>Une liste rapide concernnt mes autres activités : </strong></p>
+                                    <ul>
+                                        <li>Ecouter de la musique (beaucoup...)</li>
+                                        <li>Regarder des films ou des séries</li>
+                                        <li>Photographie</li>
+                                        <li>Montage vidéo</li>
+                                        <li>Lire</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/camera.jpg" alt="" class="img-responsive img-rounded center-block camera"> </div>
+                    </div>
+                </div>
+                <!-- FIN Activités -->
+
+                <!-- DEBUT Sports -->
+                <div class="tab-pane fade" id="sports">
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-perso/cible.jpg" alt="" class="img-responsive img-rounded center-block logo-hoche">
                                 <br> </div>
                         </div>
                         <div class="col-xs-12 col-sm-9 col-md-10">
@@ -116,11 +220,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-pro/hoche.jpg" alt="" class="img-responsive img-rounded center-block logo-hoche" width="90"> </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/cible.jpg" alt="" class="img-responsive img-rounded center-block cible"> </div>
                     </div>
                     <div class="row filiere">
                         <div class="row visible-xs">
-                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-pro/hoche.jpg" alt="" class="img-responsive img-rounded center-block logo-hoche" width="130">
+                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-perso/gym.jpg" alt="" class="img-responsive img-rounded center-block gym">
                                 <br> </div>
                         </div>
                         <div class="col-xs-12 col-sm-9 col-md-10">
@@ -142,11 +246,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-pro/hoche.jpg" alt="" class="img-responsive img-rounded center-block logo-hoche" width="90"> </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/gym.jpg" alt="" class="img-responsive img-rounded center-block gym"> </div>
                     </div>
                     <div class="row filiere">
                         <div class="row visible-xs">
-                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-pro/ingesup.jpg" alt="" class="img-responsive img-rounded center-block logo-ingesup">
+                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-perso/mtb.jpg" alt="" class="img-responsive img-rounded center-block mtb">
                                 <br> </div>
                         </div>
                         <div class="col-xs-12 col-sm-9 col-md-10">
@@ -166,11 +270,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-pro/ingesup.jpg" alt="" class="img-responsive img-rounded center-block logo-ingesup"> </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/mtb.jpg" alt="" class="img-responsive img-rounded center-block mtb"> </div>
                     </div>
                     <div class="row filiere">
                         <div class="row visible-xs">
-                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-pro/descartes.png" alt="" class="img-responsive img-rounded center-block logo-descartes">
+                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-perso/aikido.jpg" alt="" class="img-responsive img-rounded center-block aikido">
                                 <br> </div>
                         </div>
                         <div class="col-xs-12 col-sm-9 col-md-10">
@@ -204,11 +308,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="hidden-xs col-sm-3 col-md-2"> <img src="img/parcours-pro/descartes.png" alt="" class="img-responsive img-rounded center-block logo-descartes"> </div>
+                        <div class="hidden-xs col-sm-3 col-md-2"> <img src="img/parcours-perso/aikido.jpg" alt="" class="img-responsive img-rounded center-block aikido"> </div>
                     </div>
                     <div class="row filiere">
                         <div class="row visible-xs">
-                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-pro/ingesup.jpg" alt="" class="img-responsive img-rounded center-block logo-ingesup">
+                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-perso/natation.jpg" alt="" class="img-responsive img-rounded center-block natation">
                                 <br> </div>
                         </div>
                         <div class="col-xs-12 col-sm-9 col-md-10">
@@ -226,157 +330,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-pro/ingesup.jpg" alt="" class="img-responsive img-rounded center-block logo-ingesup"> </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/natation.jpg" alt="" class="img-responsive img-rounded center-block natation"> </div>
                     </div>
                 </div>
-                <!-- FIN Etudes -->
-                <!-- DEBUT Stages -->
-                <div class="row tab-pane fade" id="stages">
-                    <div class="row filiere">
-                        <div class="row visible-xs">
-                            <div class="visible-xs col-xs-offset-3 col-xs-6"> <img src="img/parcours-pro/grandoptical.png" alt="" class="img-responsive img-rounded center-block logo-grdopt">
-                                <br> </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-9 col-md-10">
-                            <div class="row flex flex-row">
-                                <div class="col-xs-3 col-sm-5 text-center flex">
-                                    <div class="date center-block flex">
-                                        <h4>Impression 3D</h4></div>
-                                </div>
-                                <div class="col-xs-8 col-sm-7 flex">
-                                    <p><strong>J'imprime vos pièces en 3D !</strong></p>
-                                    <p>L'impression 3D est devenue, depuis juin 2016, une activité principale pendant mon temps libre. Je dispose d'une Original Prusa i3 MK2, montée à sa réception.</p>
-                                    <p>Le volume d'impression disponible est de 25cm x 21cm x 20cm (LxPxH), et la précision peut aller jusqu'à 50µm.</p>
-                                    <p>J'imprime des pièces pour moi, et je suis référencé en tant que particulier sur <a href="https://www.3dhubs.com/paris/hubs/axel-0" title="Mon profil sur 3DHubs">3DHubs</a>, un site de vente de pièces imprimées. Le principe est très simple :
-                                        <ul>
-                                            <li>Une personne m'envoie un ou plusieurs modèles via le site</li>
-                                            <li>Je vérifie ses fichiers et peut accepter (ou décliner) la commande</li>
-                                            <li>Le client procède au paiement juste avant le début de l'impression</li>
-                                            <li>Dès l'impression terminée, la livraison est programmée</li>
-                                        </ul>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-9 col-md-10">
-                            <div class="row flex flex-row">
-                                <div class="col-xs-3 col-sm-5 text-center flex">
-                                    <div class="date center-block flex">
-                                        <h4>Modélisation 3D</h4></div>
-                                </div>
-                                <div class="col-xs-8 col-sm-7 flex">
-                                    <p><strong>3D Studio Max</strong></p>
-                                    <p>Que ce soit pour l'impression ou le plaisir de dessiner, je maîtrise le logiciel de modélisation 3D Studio Max</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-pro/grandoptical.png" alt="" class="img-responsive img-rounded center-block logo-grdopt"> </div>
-                    </div>
-                    <div class="row filiere">
-                        <div class="row visible-xs">
-                            <div class="visible-xs col-xs-offset-3 col-xs-6"> <img src="img/parcours-pro/grandoptical.png" alt="" class="img-responsive img-rounded center-block logo-grdopt">
-                                <br> </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-9 col-md-10">
-                            <div class="row flex flex-row">
-                                <div class="col-xs-3 col-sm-5 text-center flex">
-                                    <div class="date center-block flex">
-                                        <h4>Sites</h4></div>
-                                </div>
-                                <div class="col-xs-8 col-sm-7 flex">
-                                    <p><strong>Je participe à la création / modification de certains sites</strong></p>
-                                    <p>Quelques fois par mois, j'aide à modifier ou à placer des éléments sur un site</p>
-                                    <p>Le volume d'impression disponible est de 25cm x 21cm x 20cm (LxPxH), et la précision peut aller jusqu'à 50µm.</p>
-                                    <p>J'imprime des pièces pour moi, et je suis référencé en tant que particulier sur <a href="https://www.3dhubs.com/paris/hubs/axel-0" title="Mon profil sur 3DHubs">3DHubs</a>, un site de vente de pièces imprimées. Le principe est très simple :
-                                        <ul>
-                                            <li>Une personne m'envoie un ou plusieurs modèles via le site</li>
-                                            <li>Je vérifie ses fichiers et peut accepter (ou décliner) la commande</li>
-                                            <li>Le client procède au paiement juste avant le début de l'impression</li>
-                                            <li>Dès l'impression terminée, la livraison est programmée</li>
-                                        </ul>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-9 col-md-10">
-                            <div class="row flex flex-row">
-                                <div class="col-xs-3 col-sm-5 text-center flex">
-                                    <div class="date center-block flex">
-                                        <h4>Modélisation 3D</h4></div>
-                                </div>
-                                <div class="col-xs-8 col-sm-7 flex">
-                                    <p><strong>3D Studio Max</strong></p>
-                                    <p>Que ce soit pour l'impression ou le plaisir de dessiner, je maîtrise le logiciel de modélisation 3D Studio Max</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-pro/grandoptical.png" alt="" class="img-responsive img-rounded center-block logo-grdopt"> </div>
-                    </div>
-                </div>
-                <!-- FIN Stages -->
-                <!-- DEBUT Associatif -->
+                <!-- FIN Sports -->
+
+                <!-- DEBUT Apprentissage -->
                 <div class="row tab-pane fade" id="associatif">
-                    <div class="row filiere">
-                        <div class="row visible-xs">
-                            <div class="visible-xs col-xs-offset-3 col-xs-6"> <img src="img/parcours-pro/aps.png" alt="" class="img-responsive img-rounded center-block logo-aps" width="200">
-                                <br> </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-9 col-md-10">
-                            <div class="row flex flex-row">
-                                <div class="col-xs-3 col-sm-5 text-center">
-                                    <div class="date center-block flex">
-                                        <h4>2014 - 2015</h4></div>
-                                </div>
-                                <div class="col-xs-8 col-sm-7 flex"> <strong>Membre Actif de l'Amicale Paris Sciences</strong>
-                                    <ul>
-                                        <li>Réalisation de projets tout au long de l'année :
-                                            <ul>
-                                                <li>De nombreux petits projets</li>
-                                                <li>Quelques projets de plus grande importance</li>
-                                            </ul>
-                                        </li>
-                                        <li>Organisation d'événements :
-                                            <ul>
-                                                <li>Des petits déjeuners ou des afterworks</li>
-                                                <li>Des soirées ou des voyages</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="row flex flex-row">
-                                <div class="col-xs-3 col-sm-5 text-center">
-                                    <div class="date center-block flex">
-                                        <h4>2015 - 2016</h4></div>
-                                </div>
-                                <div class="col-xs-8 col-sm-7 flex"><strong>Vice-Président chargé de communication à l'Amicale Paris Sciences</strong>
-                                    <ul>
-                                        <li>Gestion d'un serveur linux hébergé par 1&amp;1</li>
-                                        <li>Création d'un site basé sur Joomla</li>
-                                        <li>Création du template du site</li>
-                                        <li>Gestion de comptes Facebook, Twitter, et YouTube</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="row flex flex-row">
-                                <div class="col-xs-3 col-sm-5 text-center">
-                                    <div class="date center-block flex">
-                                        <h4>2016 - 2017</h4></div>
-                                </div>
-                                <div class="col-xs-8 col-sm-7 flex"><strong>Membre Ancien de l'Amicale Paris Sciences</strong>
-                                    <ul>
-                                        <li>Rôle de conseil pour le nouveau Bureau</li>
-                                        <li>Aide ponctuelle pour l'organisation de certains événements</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-pro/aps.png" alt="" class="img-responsive img-rounded center-block logo-aps" width="200"> </div>
-                    </div>
+
                 </div>
-                <!-- FIN Associatif -->
+                <!-- FIN Apprentissage -->
             </div>
-            <!-- FIN Conetnu Onglets -->
+            <!-- FIN Contenu Onglets -->
         </div>
     </div>
     <!-- FIN container -->
