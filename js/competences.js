@@ -36,6 +36,9 @@ function progressBar(idElement, valueMax, couleurFin) {
     bar.animate(valueMax); // Number from 0.0 to 1.0
 }
 
+progressBar('esp', 0.95, '#009933');
+progressBar('eng', 0.7, '#99cc33');
+
 progressBar('html5', 0.9, '#339933');
 progressBar('css3', 0.8, '#66cc33');
 progressBar('js', 0.5, "#ffcc33");
@@ -49,3 +52,10 @@ progressBar('cpp', 0.01, '#ff00000');
 progressBar('java', 0.6, '#cccc33');
 progressBar('python', 0.01, '#ff0000');
 progressBar('git', 0.8, '#66cc33');
+
+progressBar('acrodc', 1.0, '#009933');
+progressBar('photoshop', 0.9, '#339933');
+progressBar('illustrator', 0.8, '#66cc33');
+progressBar('premiere', 0.8, '#66cc33');
+progressBar('ae', 0.6, '#cccc33');
+progressBar('studiomax', 0.7, '#99cc33');

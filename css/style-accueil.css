@@ -6,6 +6,19 @@
     font-size: 22px !important;
 }
 
+.competences p {
+    font-size: 22px !important;
+}
+
+hr {
+    width: 74%;
+}
+
+.container hr {
+    width: 35%;
+    border-top: 1px solid #888;
+}
+
 #img-header {
     margin-top: -20px;
     background: url('../img/presentation/biocode.jpg') no-repeat scroll center;
@@ -20,8 +33,8 @@
 
 .pgrbar {
     padding: 10px;
-    width: 165px;
-    height: 165px;
+    width: 131px;
+    height: 131px;
     position: relative;
 }
 
@@ -30,12 +43,29 @@
         width: 120px;
         border-width: 0.5px;
     }
+    hr {
+        width: 92%;
+    }
+    .container hr {
+        width: 65%;
+    }
+    .pgrbar {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     #img-profile {
         width: 150px;
         border-width: 0.5px;
+    }
+    .container hr {
+        width: 70%;
+    }
+    .pgrbar {
+        width: 100px;
+        height: 100px;
     }
 }
 
@@ -47,6 +77,5 @@
     .pgrbar {
         width: 131px;
         height: 131px;
-        position: relative;
     }
 }
