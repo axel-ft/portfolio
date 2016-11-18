@@ -18,6 +18,13 @@
     border: 2px solid #22223e;
 }
 
+.pgrbar {
+    padding: 10px;
+    width: 165px;
+    height: 165px;
+    position: relative;
+}
+
 @media screen and (max-width: 767px) {
     #img-profile {
         width: 120px;
@@ -36,5 +43,10 @@
     #img-profile {
         width: 170px;
         border-width: 1px;
+    }
+    .pgrbar {
+        width: 131px;
+        height: 131px;
+        position: relative;
     }
 }

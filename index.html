@@ -87,12 +87,12 @@
         <div class="container">
             <h2>Bienvenue !</h2>
             <p> Je m'appelle Axel Floquet-Trillot, j'ai 22 ans, et je suis aujourd'hui étudiant en informatique en première année à Ingésup sur le campus d'Ynov Paris.</p>
-            <p><a class="btn btn-primary btn-lg" href="/parcours-professionnel.html" role="button">Mon parcours</a></p>
+            <p><a class="btn btn-primary btn-lg" href="#qui" role="button">Qui suis-je ?</a> <a class="btn btn-primary btn-lg" href="#competences" role="button">Mes compétences</a></p>
         </div>
     </div>
-    <div class="container text-justify wrapper">
+    <div class="container text-justify">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" id="qui">
                 <h2 class="text-center">Qui suis-je ?</h2> </div>
         </div>
         <div class="row flex flex-row">
@@ -113,7 +113,7 @@
             </div>
             <div class="col-sm-4 col-md-3 col-lg-5 flex"> <img src="img/presentation/science-eprouvette.jpg" alt="" class="img-responsive"> </div>
         </div>
-        <div class="row flex flex-row">
+        <div class="row flex flex-row flex-row-reverse">
             <div class="col-sm-4 col-md-3 col-lg-5 flex"> <img src="img/presentation/photo_gala_aps.jpg" alt="" class="img-responsive"></div>
             <div class="col-sm-8 col-md-9 col-lg-7 flex">
                 <p> Pendant ces deux années de licence, j'ai pris le temps de construire un nouveau projet professionnel, que j'avais d'abord axé sur la neurologie. L'élément qui a déclenché ma réorientation en informatique est mon entrée dans l'Amicale Paris Sciences (l'APS, le BDE de la licence), dans lequel j'ai passé un mandat en tant que Vice-Président chargé de la Communication.</p>
@@ -121,14 +121,46 @@
         </div>
         <div class="row flex flex-row">
             <div class="col-sm-8 col-md-9 col-lg-7 flex">
-                <p>Pendant ce mandat, j'ai du reconcevoir le site de l'APS, qui n'avait pas été mis à jour depuis plusieurs années. C'est en démarrant ce projet que j'ai appris le PHP, SQL, HTML et CSS. Le site est dynamique et basé sur Joomla!. Il est accessible directement par le menu, dans la catégorie Fichiers / Liens.</p>
+                <p>Pendant ce mandat, j'ai du reconcevoir le site de l'APS, qui n'avait pas été mis à jour depuis plusieurs années. C'est en démarrant ce projet que j'ai appris le PHP, SQL, HTML et CSS. Le site est dynamique et basé sur Joomla!. Il est accessible via <a href="http://aps-paris5.fr" target="_blank" title="Mon premier site créé">ce lien</a> ou directement par le menu, dans la catégorie Fichiers / Liens.</p>
             </div>
             <div class="col-sm-4 col-md-3 col-lg-5 flex"> <img src="img/presentation/site_aps.jpeg" alt="" class="img-responsive"> </div>
         </div>
-        <div class="row flex flex-row">
+        <div class="row flex flex-row flex-row-reverse">
             <div class="col-sm-4 col-md-3 col-lg-5 flex"> <img class="img-responsive" alt="" src="img/presentation/OpenClassrooms_Homepage.png"> </div>
             <div class="col-sm-8 col-md-9 col-lg-7 flex">
-                <p>C'est après avoir codé ce site et beaucoup de temps sur OpenClassrooms (avec des cours sur plusieurs langages) que je me suis décidé à entrer en première année d'Ingésup, en ingéniérie informatique.</p>
+                <p>C'est après avoir codé ce site, et après avoir passé beaucoup de temps sur OpenClassrooms (avec des cours sur plusieurs langages) que je me suis décidé à entrer en première année d'Ingésup, en ingéniérie informatique.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-justify wrapper">
+        <div class="row">
+            <div class="col-md-12" id="competences">
+                <h2 class="text-center">Mes compétences</h2> </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-xs-6 col-md-2">
+                <div id="html5" class="pgrbar center-block"></div>
+                <p>HTML5</p>
+            </div>
+            <div class="col-xs-6 col-md-2">
+                <div id="css3" class="pgrbar center-block"></div>
+                <p>CSS3</p>
+            </div>
+            <div class="col-xs-6 col-md-2">
+                <div id="js" class="pgrbar center-block"></div>
+                <p>JavaScrip</p>
+            </div>
+            <div class="col-xs-6 col-md-2">
+                <div id="jquery" class="pgrbar center-block"></div>
+                <p>JQuery</p>
+            </div>
+            <div class="col-xs-6 col-md-2">
+                <div id="sql" class="pgrbar center-block"></div>
+                <p>SQL</p>
+            </div>
+            <div class="col-xs-6 col-md-2">
+                <div id="php" class="pgrbar center-block"></div>
+                <p>PHP</p>
             </div>
         </div>
     </div>
@@ -153,6 +185,8 @@
     <!-- JQUERY ET BOOTSRAP JS-->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
+    <script src="js/competences.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- FIN JS -->
 </body>
