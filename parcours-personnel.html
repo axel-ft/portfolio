@@ -84,8 +84,8 @@
             <div class="col-md-12">
                 <!-- DEBUT Onglets -->
                 <ul class="nav nav-pills nav-justified" role="tablist">
-                    <li class="active" role="presentation"><a href="#stages" aria-controls="stage" role="tab" data-toggle="pill"><strong>Activités</strong></a></li>
-                    <li style="display:none" role="presentation"><a href="#associatif" aria-controls="associatif" role="tab" data-toggle="pill"><strong>Apprentissage</strong></a></li>
+                    <li class="active" role="presentation"><a href="#activites" aria-controls="stage" role="tab" data-toggle="pill"><strong>Activités</strong></a></li>
+                    <li role="presentation"><a href="#apprentissage" aria-controls="apprentissage" role="tab" data-toggle="pill"><strong>Apprentissage</strong></a></li>
                     <li role="presentation"><a href="#sports" aria-controls="sports" role="tab" data-toggle="pill"><strong>Sports</strong></a></li>
                 </ul>
                 <!-- FIN Onglets -->
@@ -95,7 +95,7 @@
             <!-- DEBUT Contenu Onglets -->
             <div class="tab-content">
                 <!-- DEBUT Activités -->
-                <div class="tab-pane fade in active" id="stages">
+                <div class="tab-pane fade in active" id="activites">
                     <div class="row filiere">
                         <div class="row visible-xs">
                             <div class="visible-xs col-xs-offset-3 col-xs-6"> <img src="img/parcours-perso/3dprinter.jpg" alt="" class="img-responsive img-rounded center-block printer">
@@ -336,13 +336,113 @@
                 <!-- FIN Sports -->
 
                 <!-- DEBUT Apprentissage -->
-                <div class="row tab-pane fade" id="associatif">
-
+                <div class="row tab-pane fade" id="apprentissage">
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="visible-xs col-xs-offset-3 col-xs-6"> <img src="img/parcours-perso/key.jpg" alt="" class="img-responsive img-rounded center-block key">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>OpenClassrooms</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>Cours demarrés sur OpenClassrooms :</strong></p>
+                                    <ul>
+                                        <li>Apprenez à programmer en C !</li>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" id="c" role="progressbar" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100">
+                                                58%
+                                            </div>
+                                        </div>
+                                        <li>Dynamisez vos sites avec JavaScript</li>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" id="js" role="progressbar" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100">
+                                                42%
+                                            </div>
+                                        </div>
+                                        <li>Les clés pour réussir son référencement Web</li>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" id="ref" role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
+                                                32%
+                                            </div>
+                                        </div>
+                                        <li>Apprenez à programmer en orienté objet en PHP</li>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" id="phpobj" role="progressbar" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">
+                                                12%
+                                            </div>
+                                        </div>
+                                        <li>Prenez en main Bootstrap</li>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" id="phpobj" role="progressbar" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100">
+                                                8%
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    <p><strong>Cours terminés sur OpenClassrooms :</strong></p>
+                                    <ul>
+                                        <li>Concevez votre site Web avec PHP et MySQL</li>
+                                        <li>Apprenez à créer votre site Web avec HTML5 et CSS3</li>
+                                        <li>Comprendre le Web</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>CodeCademy</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>Cours demarrés sur CodeCademy :</strong></p>
+                                    <ul>
+                                        <li>Apprendre AngularJS1.X</li>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" id="angular" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                                50%
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    <p><strong>Cours terminés sur CodeCademy :</strong></p>
+                                    <ul>
+                                        <li>Apprendre l'outil de ligne de commande</li>
+                                        <li>Créer un site </li>
+                                        <li>Apprendre Git</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/key.jpg" alt="" class="img-responsive img-rounded center-block key"> </div>
+                    </div>
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="visible-xs col-xs-offset-3 col-xs-6"> <img src="img/parcours-perso/browser.png" alt="" class="img-responsive img-rounded center-block google">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>Google<br>&amp;<br>Stack overflow</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>Google est mon ami !</strong></p>
+                                    <p>C'est le site qui me permet très souvent de résoudre les problèmes dans mon code. Stack Overflow est aussi une grande source de résolution de problèmes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/browser.png" alt="" class="img-responsive img-rounded center-block google"> </div>
+                    </div>
                 </div>
-                <!-- FIN Apprentissage -->
             </div>
-            <!-- FIN Contenu Onglets -->
+            <!-- FIN Apprentissage -->
         </div>
+        <!-- FIN Contenu Onglets -->
+    </div>
     </div>
     <!-- FIN container -->
     <!-- DEBUT footer -->

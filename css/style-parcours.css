@@ -69,10 +69,101 @@
                 .logo-grdopt {
                     background: white;
                     padding: 5px;
+                    margin-top: 80px;
                 }
                 
                 .aikido {
                     margin-top: 140px;
+                }
+                
+                @keyframes completion-ang {
+                    0% {
+                        width: 0%;
+                    }
+                    100% {
+                        width: 50%;
+                    }
+                }
+                
+                #angular {
+                    width: 50%;
+                    animation: completion-ang 1s ease, progress-bar-stripes 2s linear infinite;
+                    ;
+                }
+                
+                @keyframes completion-c {
+                    0% {
+                        width: 0%;
+                    }
+                    100% {
+                        width: 58%;
+                    }
+                }
+                
+                #c {
+                    width: 58%;
+                    animation: completion-c 1s ease, progress-bar-stripes 2s linear infinite;
+                    ;
+                }
+                
+                @keyframes completion-js {
+                    0% {
+                        width: 0%;
+                    }
+                    100% {
+                        width: 42%;
+                    }
+                }
+                
+                #js {
+                    width: 42%;
+                    animation: completion-js 1s ease, progress-bar-stripes 2s linear infinite;
+                    ;
+                }
+                
+                @keyframes completion-ref {
+                    0% {
+                        width: 0%;
+                    }
+                    100% {
+                        width: 32%;
+                    }
+                }
+                
+                #ref {
+                    width: 32%;
+                    animation: completion-ref 1s ease, progress-bar-stripes 2s linear infinite;
+                    ;
+                }
+                
+                @keyframes completion-phpobj {
+                    0% {
+                        width: 0%;
+                    }
+                    100% {
+                        width: 12%;
+                    }
+                }
+                
+                #phpobj {
+                    width: 12%;
+                    animation: completion-phpobj 1s ease, progress-bar-stripes 2s linear infinite;
+                    ;
+                }
+                
+                @keyframes completion-bootstrap {
+                    0% {
+                        width: 0%;
+                    }
+                    100% {
+                        width: 8%;
+                    }
+                }
+                
+                #phpobj {
+                    width: 8%;
+                    animation: completion-bootstrap 1s ease, progress-bar-stripes 2s linear infinite;
+                    ;
                 }
                 
                 @media screen and (max-width: 767px) {
@@ -97,7 +188,9 @@
                     .mtb,
                     .aikido,
                     .natation,
-                    .printer {
+                    .printer,
+                    .vis,
+                    .key {
                         margin-top: 10px;
                     }
                     html,
@@ -111,16 +204,21 @@
                 
                 @media screen and (min-width: 768px) and (max-width: 991px) {
                     .logo-ingesup {
-                        margin-top: 60px;
+                        margin-top: 75px;
+                    }
+                    .logo-descartes {
+                        margin-top: 280px;
                     }
                     .logo-aps {
-                        margin-top: 40px;
+                        margin-top: 310px;
                     }
                     .cible {
                         margin-top: 46px;
                     }
                     .gym,
-                    .mtb,
+                    .mtb {
+                        margin-top: 55px;
+                    }
                     .natation {
                         margin-top: 45px;
                     }
@@ -128,19 +226,28 @@
                         margin-top: -350px;
                     }
                     .camera {
-                        margin-top: 60px
+                        margin-top: 70px
+                    }
+                    .vis {
+                        margin-top: -120px;
+                    }
+                    .key {
+                        margin-top: -270px;
+                    }
+                    .google {
+                        margin-top: 55px
                     }
                 }
                 
                 @media screen and (min-width: 992px) and (max-width: 1199px) {
                     .logo-descartes {
-                        margin-top: 225px;
+                        margin-top: 275px;
                     }
                     .logo-ingesup {
-                        margin-top: -5px;
+                        margin-top: 80px;
                     }
                     .logo-aps {
-                        margin-top: 15px;
+                        margin-top: 260px;
                     }
                     .cible,
                     .mtb,
@@ -154,17 +261,26 @@
                     .printer {
                         margin-top: -200px;
                     }
+                    .vis {
+                        margin-top: -60px;
+                    }
+                    .key {
+                        margin-top: -250px;
+                    }
+                    .google {
+                        margin-top: 55px
+                    }
                 }
                 
                 @media screen and (min-width: 1200px) {
                     .logo-descartes {
-                        margin-top: 216px;
+                        margin-top: 260px;
                     }
                     .logo-ingesup {
-                        margin-top: 60px;
+                        margin-top: 70px;
                     }
                     .logo-aps {
-                        margin-top: 5px
+                        margin-top: 230px
                     }
                     .cible,
                     .gym,
@@ -174,6 +290,15 @@
                         margin-top: 45px;
                     }
                     .printer {
-                        margin-top: -200px;
+                        margin-top: -210px;
+                    }
+                    .vis {
+                        margin-top: -70px;
+                    }
+                    .key {
+                        margin-top: -240px;
+                    }
+                    .google {
+                        margin-top: 55px
                     }
                 }
