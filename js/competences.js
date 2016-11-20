@@ -37,7 +37,7 @@ function progressBar(idElement, valueMax, couleurFin) {
 }
 
 function estVisible(progressBarElement) {
-    var currElementPosY = 0,
+    var currElementPosY = 120,
         obj = document.getElementById(progressBarElement);
     while (obj != null) {
         currElementPosY += obj.offsetTop;

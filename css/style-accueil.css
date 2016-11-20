@@ -38,6 +38,20 @@ hr {
     position: relative;
 }
 
+@keyframes opa-progress {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.pgrbar svg,
+.pgrbar p {
+    animation: opa-progress ease 1s;
+}
+
 @media screen and (max-width: 767px) {
     #img-profile {
         width: 120px;
