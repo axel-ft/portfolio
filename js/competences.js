@@ -36,6 +36,7 @@ function progressBar(idElement, valueMax, couleurFin) {
     bar.animate(valueMax); // Number from 0.0 to 1.0
 }
 
+progressBar('fr', 1.0, '#009933');
 progressBar('esp', 0.95, '#009933');
 progressBar('eng', 0.7, '#99cc33');
 
