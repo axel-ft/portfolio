@@ -1,0 +1,480 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mon Portfolio - Parcours</title>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-general.css">
+    <link rel="stylesheet" href="css/style-parcours.css">
+    <script type="text/javascript" src="js/mail.js"></script>
+    <!-- BOOTSTRAP -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- FIN BOOTSTRAP -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff"> </head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <a class="navbar-brand" href="index.html">
+                        <h1>Axel FT  <small>Portfolio</small></h1> </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Présentation Personnelle</a></li>
+                        <li class="dropdown active"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Parcours<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="parcours-professionnel.html">Professionnel</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="active"><a href="parcours-personnel.html">Personnel<span class="sr-only">(current)</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fichiers/Liens<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a target="_blank" href="files/CV_Axel_Floquet-Trillot.pdf">CV (PDF)</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a target="_blank" href="http://aps-paris5.fr">Site de l'APS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <!-- DEBUT container -->
+    <div class="container wrapper">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- DEBUT Onglets -->
+                <ul class="nav nav-pills nav-justified" role="tablist">
+                    <li class="active" role="presentation"><a href="#activites" aria-controls="stage" role="tab" data-toggle="pill"><strong>Activités</strong></a></li>
+                    <li role="presentation"><a href="#apprentissage" aria-controls="apprentissage" role="tab" data-toggle="pill"><strong>Apprentissage</strong></a></li>
+                    <li role="presentation"><a href="#sports" aria-controls="sports" role="tab" data-toggle="pill"><strong>Sports</strong></a></li>
+                </ul>
+                <!-- FIN Onglets -->
+            </div>
+        </div>
+        <div class="row text-justify">
+            <!-- DEBUT Contenu Onglets -->
+            <div class="tab-content">
+                <!-- DEBUT Activités -->
+                <div class="tab-pane fade in active" id="activites">
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="visible-xs col-xs-offset-3 col-xs-6"> <img src="img/parcours-perso/3dprinter.jpg" alt="" class="img-responsive img-rounded center-block printer">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4 class="hidden-xs">Impression 3D</h4>
+                                        <h4 class="visible-xs">Imp 3D</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>J'imprime vos pièces en 3D !</strong></p>
+                                    <p>L'impression 3D est devenue, depuis juin 2016, une activité principale pendant mon temps libre. Je dispose d'une Original Prusa i3 MK2, assemblée par mes soins à sa réception.</p>
+                                    <p>Le volume d'impression disponible est de 25cm x 21cm x 20cm (LxPxH), et la précision peut aller jusqu'à 50µm.</p>
+                                    <p>J'imprime des pièces pour moi, et je suis référencé en tant que particulier sur <a href="https://www.3dhubs.com/paris/hubs/axel-0" title="Mon profil sur 3DHubs">3DHubs</a>, un site de vente de pièces imprimées. Le principe est très simple :</p>
+                                    <ul>
+                                        <li>Une personne m'envoie un ou plusieurs modèles via le site</li>
+                                        <li>Je vérifie ses fichiers et peut accepter (ou décliner) la commande</li>
+                                        <li>Le client procède au paiement juste avant le début de l'impression</li>
+                                        <li>Dès l'impression terminée, la livraison est programmée</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>Dessin 3D</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>3D Studio Max</strong></p>
+                                    <p>Que ce soit pour l'impression ou le plaisir de dessiner, je maîtrise le logiciel de modélisation 3D Studio Max pour réaliser scènes et objets.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/3dprinter.jpg" alt="" class="img-responsive img-rounded center-block printer"> </div>
+                    </div>
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="visible-xs col-xs-offset-3 col-xs-6"> <img src="img/parcours-perso/vis.jpg" alt="" class="img-responsive img-rounded center-block vis">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>Sites</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>Je participe à la création / modification de certains sites</strong></p>
+                                    <p>Quelques fois par mois, j'aide à modifier ou à placer des éléments sur un site d'actualité artistique : <a href="http://www.osmosart.com" target="_blank">Osmosart</a></p>
+                                    <p>J'ai également proposé à un médecin du sport de refaire son site, celui-ci n'étant pas responsive, et donc non adapté aux affichages actuels tels que les téléphones.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4 class="hidden-xs">Réparations</h4>
+                                        <h4 class="visible-xs">Rép</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>Nettoyage, installation et réparation d'ordinateurs</strong></p>
+                                    <p>On me prête régulièrement des ordinateurs afin de :</p>
+                                    <ul>
+                                        <li>Les réparer au niveau matériel ou logiciel</li>
+                                        <li>Récupérer des données</li>
+                                        <li>Réinstaller le système d'exploitation</li>
+                                        <li>Procéder à une désinfection (virus, adware...)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/vis.jpg" alt="" class="img-responsive img-rounded center-block vis"> </div>
+                    </div>
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="visible-xs col-xs-offset-3 col-xs-6"> <img src="img/parcours-perso/camera.jpg" alt="" class="img-responsive img-rounded center-block camera">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>Autres</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>Une liste rapide concernant mes autres activités : </strong></p>
+                                    <ul>
+                                        <li>Ecouter de la musique (beaucoup...)</li>
+                                        <li>Regarder des films ou des séries</li>
+                                        <li>Photographie</li>
+                                        <li>Montage vidéo</li>
+                                        <li>Lire</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/camera.jpg" alt="" class="img-responsive img-rounded center-block camera"> </div>
+                    </div>
+                </div>
+                <!-- FIN Activités -->
+
+                <!-- DEBUT Apprentissage -->
+                <div class="row tab-pane fade" id="apprentissage">
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="visible-xs col-xs-offset-3 col-xs-6"> <img src="img/parcours-perso/key.jpg" alt="" class="img-responsive img-rounded center-block key">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>Open<br>Classrooms</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>Cours demarrés sur OpenClassrooms :</strong></p>
+                                    <ul>
+                                        <li>Apprenez à programmer en C !</li>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" id="c" role="progressbar" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100">
+                                                58%
+                                            </div>
+                                        </div>
+                                        <li>Dynamisez vos sites avec JavaScript</li>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" id="js" role="progressbar" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100">
+                                                42%
+                                            </div>
+                                        </div>
+                                        <li>Les clés pour réussir son référencement Web</li>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" id="ref" role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">
+                                                32%
+                                            </div>
+                                        </div>
+                                        <li>Apprenez à programmer en orienté objet en PHP</li>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" id="phpobj" role="progressbar" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">
+                                                12%
+                                            </div>
+                                        </div>
+                                        <li>Prenez en main Bootstrap</li>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" id="phpobj" role="progressbar" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100">
+                                                8%
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    <p><strong>Cours terminés sur OpenClassrooms :</strong></p>
+                                    <ul>
+                                        <li>Concevez votre site Web avec PHP et MySQL</li>
+                                        <li>Apprenez à créer votre site Web avec HTML5 et CSS3</li>
+                                        <li>Comprendre le Web</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>CodeCademy</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>Cours demarrés sur CodeCademy :</strong></p>
+                                    <ul>
+                                        <li>Apprendre AngularJS1.X</li>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" id="angular" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                                50%
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    <p><strong>Cours terminés sur CodeCademy :</strong></p>
+                                    <ul>
+                                        <li>Apprendre l'outil de ligne de commande</li>
+                                        <li>Créer un site </li>
+                                        <li>Apprendre Git</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/key.jpg" alt="" class="img-responsive img-rounded center-block key"> </div>
+                    </div>
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="visible-xs col-xs-offset-3 col-xs-6"> <img src="img/parcours-perso/browser.png" alt="" class="img-responsive img-rounded center-block google">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>Google<br>&amp;<br>Stack overflow</h4></div>
+                                </div>
+                                <div class="col-xs-8 col-sm-7 flex">
+                                    <p><strong>Google est mon ami !</strong></p>
+                                    <p>C'est le site qui me permet très souvent de résoudre les problèmes dans mon code. Stack Overflow est aussi une grande source de résolution de problèmes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/browser.png" alt="" class="img-responsive img-rounded center-block google"> </div>
+                    </div>
+                </div>
+                <!-- FIN Apprentissage -->
+
+                <!-- DEBUT Sports -->
+                <div class="tab-pane fade" id="sports">
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-perso/cible.jpg" alt="" class="img-responsive img-rounded center-block logo-hoche">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center">
+                                    <div class="ligne-temps"></div>
+                                    <div class="date center-block flex">
+                                        <h4>En cours</h4> </div>
+                                </div>
+                                <div class="col-xs-9 col-sm-7 flex">
+                                    <p><strong>Tir à l'arc</strong></p>
+                                    <ul>
+                                        <li>Flèche blanche</li>
+                                        <li>Arc classique</li>
+                                        <li>Tir jusqu'à 15m</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/cible.jpg" alt="" class="img-responsive img-rounded center-block cible"> </div>
+                    </div>
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-perso/gym.jpg" alt="" class="img-responsive img-rounded center-block gym">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="ligne-temps"></div>
+                                    <div class="date center-block flex">
+                                        <h4>En cours</h4> </div>
+                                </div>
+                                <div class="col-xs-9 col-sm-7 flex">
+                                    <p><strong>Gymnastique aux agrès</strong></p>
+                                    <ul>
+                                        <li>Sol</li>
+                                        <li>Trampoline</li>
+                                        <li>Barres parallèles</li>
+                                        <li>Saut</li>
+                                        <li>Barre fixe</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/gym.jpg" alt="" class="img-responsive img-rounded center-block gym"> </div>
+                    </div>
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-perso/mtb.jpg" alt="" class="img-responsive img-rounded center-block mtb">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>Parfois</h4></div>
+                                </div>
+                                <div class="col-xs-9 col-sm-7 flex">
+                                    <p><strong>Je pratique également à plusieurs reprises dans l'année les sports suivants :</strong></p>
+                                    <ul>
+                                        <li>Roller</li>
+                                        <li>Patinage</li>
+                                        <li>V.T.T. en forêt</li>
+                                        <li>Kite-Mountainboard</li>
+                                        <li>Ski</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/mtb.jpg" alt="" class="img-responsive img-rounded center-block mtb"> </div>
+                    </div>
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-perso/aikido.jpg" alt="" class="img-responsive img-rounded center-block aikido">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>4 ans</h4></div>
+                                </div>
+                                <div class="col-xs-9 col-sm-7 flex">
+                                    <p><strong>Aïkibudo</strong></p>
+                                    <ul>
+                                        <li>Ceinture bleue</li>
+                                        <li>Katas</li>
+                                        <li>Combats</li>
+                                        <li>Initiation au couteau et au sabre</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center flex">
+                                    <div class="date center-block flex">
+                                        <h4>2 ans</h4></div>
+                                </div>
+                                <div class="col-xs-9 col-sm-7 flex">
+                                    <p><strong>Karaté</strong></p>
+                                    <ul>
+                                        <li>Ceinture orange</li>
+                                        <li>Katas</li>
+                                        <li>Combats</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2"> <img src="img/parcours-perso/aikido.jpg" alt="" class="img-responsive img-rounded center-block aikido"> </div>
+                    </div>
+                    <div class="row filiere">
+                        <div class="row visible-xs">
+                            <div class="col-xs-6 col-xs-offset-3 visible-xs"> <img src="img/parcours-perso/natation.jpg" alt="" class="img-responsive img-rounded center-block natation">
+                                <br> </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-10">
+                            <div class="row flex flex-row">
+                                <div class="col-xs-3 col-sm-5 text-center">
+                                    <div class="date center-block flex">
+                                        <h4>4 ans</h4></div>
+                                </div>
+                                <div class="col-xs-9 col-sm-7 flex">
+                                    <p><strong>Natation</strong></p>
+                                    <ul>
+                                        <li>4 nages</li>
+                                        <li>Participation à quelques compétitions</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 flex"> <img src="img/parcours-perso/natation.jpg" alt="" class="img-responsive img-rounded center-block natation"> </div>
+                    </div>
+                </div>
+                <!-- FIN Sports -->
+            </div>
+            <!-- FIN Contenu Onglets -->
+        </div>
+    </div>
+    <!-- FIN container -->
+    <!-- DEBUT footer -->
+    <footer class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <div class="navbar-left">
+                <p>© Copyright 2016 Axel Floquet-Trillot</p>
+            </div>
+            <div class="navbar-right flex flex-row">
+                <a href="contact.html"><img alt="Contact" src="img/close-envelope.svg" class="img-responsive" width="32"></a>
+                <a href="https://www.facebook.com/axelft" target="_blank"><img src="img/facebook.svg" alt="Facebook" class="img-responsive img-circle" width="32"></a>
+                <a href="https://www.linkedin.com/in/axel-floquet-trillot-79b605108" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn" class="img-responsive" width="32"></a>
+                <a href="https://www.3dhubs.com/paris/hubs/axel-0" target="_blank"><img src="img/3D-Hubs-logo.png" class="img-responsive img-circle" width="32" alt="3DHubs"></a>
+                <a href="https://bitbucket.org/axelft/" target="_blank"><img src="img/bitbucket.svg" alt="BitBucket" width="32" class="img-responsive img-circle"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- FIN footer -->
+    <!-- JQUERY ET BOOTSRAP JS-->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/hovermenu.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- FIN JS -->
+</body>
+
+</html>
