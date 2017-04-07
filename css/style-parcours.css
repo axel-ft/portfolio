@@ -91,34 +91,14 @@
                     ;
                 }
                 
-                @keyframes completion-c {
-                    0% {
-                        width: 0%;
-                    }
-                    100% {
-                        width: 58%;
-                    }
-                }
-                
                 #c {
-                    width: 58%;
-                    animation: completion-c 1s ease, progress-bar-stripes 2s linear infinite;
+                    animation: progress-bar-stripes 2s linear infinite;
                     ;
                 }
                 
                 @keyframes completion-js {
-                    0% {
-                        width: 0%;
-                    }
-                    100% {
-                        width: 42%;
-                    }
-                }
-                
                 #js {
-                    width: 42%;
                     animation: completion-js 1s ease, progress-bar-stripes 2s linear infinite;
-                    ;
                 }
                 
                 @keyframes completion-ref {
@@ -160,7 +140,7 @@
                     }
                 }
                 
-                #phpobj {
+                #bootstrap {
                     width: 8%;
                     animation: completion-bootstrap 1s ease, progress-bar-stripes 2s linear infinite;
                     ;

@@ -1,9 +1,12 @@
-<?php require_once('head.php'); ?>
+<?php
+$title = "Qui suis-je ? - Axel Floquet-Trillot";
+require_once('head.php');
+?>
 <body>
     <?php require_once('navbar.php'); ?>
         <div class="container-fluid">
         <div class="row">
-            <div id="img-header" class="flex"><img src="img/presentation/profil.jpg" alt="" class="img-responsive img-circle center-block" id="img-profile"></div>
+            <div id="img-header" class="flex"><amp-img layout="responsive" src="img/presentation/profil.jpg" alt="" class="img-responsive img-circle center-block" id="img-profile" height="800" width="800"></amp-img></div>
         </div>
     </div>
     <div class="jumbotron">
@@ -22,10 +25,10 @@
             <div class="col-sm-8 col-md-9 col-lg-7 flex">
                 <p> J'ai obtenu mon bac Scientifique en 2012, après mes études secondaires au Lycée Hoche de Versailles. Je suis entré en PACES (Première Année Commune aux Etudes de Santé) en 2012 dans le but initial de faire médecine.</p>
             </div>
-            <div class="col-sm-4 col-md-3 col-lg-5 flex"> <img src="img/presentation/lycee_hoche.JPG" alt="" class="img-responsive"> </div>
+            <div class="col-sm-4 col-md-3 col-lg-5 flex"> <amp-img layout="responsive" src="img/presentation/lycee_hoche.JPG" alt="" class="img-responsive" width="2816" height="999"></amp-img> </div>
         </div>
         <div class="row flex flex-row flex-row-reverse">
-            <div class="col-sm-4 col-md-3 col-lg-5 flex"> <img src="img/presentation/medical.jpg" alt="" class="img-responsive"> </div>
+            <div class="col-sm-4 col-md-3 col-lg-5 flex"> <amp-img layout="responsive" src="img/presentation/medical.jpg" alt="" class="img-responsive" width="1280" height="648"></amp-img> </div>
             <div class="col-sm-8 col-md-9 col-lg-7 flex">
                 <p>Comme une majorité d'étudiants, j'ai d'abord redoublé la PACES avant d'être reçu-collé au concours (ma moyenne était supérieure à 10 mais mon classement, à quelques places près, ne me permettait pas d'entrer dans une des filières de santé). </p>
             </div>
@@ -34,22 +37,22 @@
             <div class="col-sm-8 col-md-9 col-lg-7 flex">
                 <p> J'ai obtenu une équivalence pour entrer en L2 Sciences pour la Santé. J'ai donc poursuivi mes études pendant 2 ans jusqu'à obtention du diplôme de la Licence Sciences et Technologies - Mention Sciences pour la Santé en 2016. Pendant ces deux ans, j'ai surtout étudié la biologie (bactériologie, immunologie, hématologie, virologie, neurologie, etc), la biochimie (métabolisme, etc), et la physiologie (fonctionnement du corps humain sans pathologie). </p>
             </div>
-            <div class="col-sm-4 col-md-3 col-lg-5 flex"> <img src="img/presentation/science-eprouvette.jpg" alt="" class="img-responsive"> </div>
+            <div class="col-sm-4 col-md-3 col-lg-5 flex"> <amp-img layout="responsive" src="img/presentation/science-eprouvette.jpg" alt="" class="img-responsive" width="1280" height="863"></amp-img> </div>
         </div>
         <div class="row flex flex-row flex-row-reverse">
-            <div class="col-sm-4 col-md-3 col-lg-5 flex"> <img src="img/presentation/photo_gala_aps.jpg" alt="" class="img-responsive"></div>
+            <div class="col-sm-4 col-md-3 col-lg-5 flex"> <amp-img layout="responsive" src="img/presentation/photo_gala_aps.jpg" alt="" class="img-responsive" width="960" height="553"></amp-img></div>
             <div class="col-sm-8 col-md-9 col-lg-7 flex">
                 <p> Pendant ces deux années de licence, j'ai pris le temps de construire un nouveau projet professionnel, que j'avais d'abord axé sur la neurologie. L'élément qui a déclenché ma réorientation en informatique est mon entrée dans l'Amicale Paris Sciences (l'APS, le BDE de la licence), dans lequel j'ai exercé un mandat en tant que Vice-Président chargé de la Communication.</p>
             </div>
         </div>
         <div class="row flex flex-row">
             <div class="col-sm-8 col-md-9 col-lg-7 flex">
-                <p>Pendant ce mandat, j'ai du reconcevoir le site de l'APS, qui n'avait pas été mis à jour depuis plusieurs années. C'est en démarrant ce projet que j'ai appris le PHP, SQL, HTML et CSS. Le site est dynamique et basé sur Joomla!. Il est accessible via <a href="http://aps-paris5.fr" target="_blank" title="Mon premier site créé">ce lien</a> ou directement par le menu, dans la catégorie Fichiers / Liens.</p>
+                <p>Pendant ce mandat, j'ai du reconcevoir <a href="http://aps-paris5.fr" target="_blank" title="Mon premier site créé">le site de l'APS</a>, qui n'avait pas été mis à jour depuis plusieurs années. C'est en démarrant ce projet que j'ai appris le PHP, SQL, HTML et CSS. Le site est dynamique et basé sur Joomla!. Il est aussi accessible directement par le menu, dans la catégorie Fichiers / Liens.</p>
             </div>
-            <div class="col-sm-4 col-md-3 col-lg-5 flex"> <img src="img/presentation/site_aps.png" alt="" class="img-responsive"> </div>
+            <div class="col-sm-4 col-md-3 col-lg-5 flex"> <amp-img layout="responsive" src="img/presentation/site_aps.png" alt="" class="img-responsive" width="1920" height="1014"></amp-img> </div>
         </div>
         <div class="row flex flex-row flex-row-reverse">
-            <div class="col-sm-4 col-md-3 col-lg-5 flex"> <img class="img-responsive" alt="" src="img/presentation/OpenClassrooms_Homepage.png"> </div>
+            <div class="col-sm-4 col-md-3 col-lg-5 flex"> <amp-img layout="responsive" class="img-responsive" alt="" src="img/presentation/OpenClassrooms_Homepage.png" width="877" height="174"></amp-img> </div>
             <div class="col-sm-8 col-md-9 col-lg-7 flex">
                 <p>C'est après avoir codé ce site, et après avoir passé beaucoup de temps sur OpenClassrooms (avec des cours sur plusieurs langages) que je me suis décidé à entrer en première année d'Ingésup, en ingéniérie informatique.</p>
             </div>
@@ -68,6 +71,7 @@
             <div class="col-xs-4 col-sm-2 col-sm-offset-3">
                 <div id="fr" class="pgrbar center-block"></div>
                 <p>Français</p>
+B
             </div>
             <div class="col-xs-4 col-sm-2">
                 <div id="esp" class="pgrbar center-block"></div>
@@ -166,22 +170,7 @@
             </div>
         </div>
     </div>
-    <!-- DEBUT footer -->
-    <footer class="navbar navbar-default navbar-fixed-bottom">
-        <div class="container">
-            <div class="navbar-left">
-                <p>© Copyright 2016 Axel Floquet-Trillot</p>
-            </div>
-            <div class="navbar-right flex flex-row">
-                <a href="contact.html"><img alt="Contact" src="img/close-envelope.svg" class="img-responsive" width="32"></a>
-                <a href="https://www.facebook.com/axelft" target="_blank"><img src="img/facebook.svg" alt="Facebook" class="img-responsive img-circle" width="32"></a>
-                <a href="https://www.linkedin.com/in/axel-floquet-trillot-79b605108" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn" class="img-responsive" width="32"></a>
-                <a href="https://www.3dhubs.com/paris/hubs/axel-0" target="_blank"><img src="img/3D-Hubs-logo.png" class="img-responsive img-circle" width="32" alt="3DHubs"></a>
-                <a href="https://bitbucket.org/axelft/" target="_blank"><img src="img/bitbucket.svg" alt="BitBucket" width="32" class="img-responsive img-circle"></a>
-            </div>
-        </div>
-    </footer>
-    <!-- FIN footer -->
+    <?php require_once('footer.php'); ?>
     <!-- JQUERY ET BOOTSRAP JS-->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
@@ -189,6 +178,7 @@
     <script type="text/javascript" src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
     <script src="js/competences.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/analytics.js"></script>
     <!-- FIN JS -->
 </body>
 

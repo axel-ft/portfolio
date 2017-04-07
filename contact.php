@@ -1,4 +1,7 @@
-<?php require_once('head.php'); ?>
+<?php
+    $title = "Me contacter - Axel Floquet-Trillot";
+    require_once('head.php');
+?>
 <body>
 <?php require_once('navbar.php'); ?>
     <div class="container wrapper">
@@ -42,27 +45,13 @@
             </div>
         </div>
     </div>
-    <!-- DEBUT footer -->
-    <footer class="navbar navbar-default navbar-fixed-bottom">
-        <div class="container">
-            <div class="navbar-left">
-                <p>© Copyright 2016 Axel Floquet-Trillot</p>
-            </div>
-            <div class="navbar-right flex flex-row">
-                <a href="contact.html"><img alt="Contact" src="img/close-envelope.svg" class="img-responsive" width="32"></a>
-                <a href="https://www.facebook.com/axelft" target="_blank"><img src="img/facebook.svg" alt="Facebook" class="img-responsive img-circle" width="32"></a>
-                <a href="https://www.linkedin.com/in/axel-floquet-trillot-79b605108" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn" class="img-responsive" width="32"></a>
-                <a href="https://www.3dhubs.com/paris/hubs/axel-0" target="_blank"><img src="img/3D-Hubs-logo.png" class="img-responsive img-circle" width="32" alt="3DHubs"></a>
-                <a href="https://bitbucket.org/axelft/" target="_blank"><img src="img/bitbucket.svg" alt="BitBucket" width="32" class="img-responsive img-circle"></a>
-            </div>
-        </div>
-    </footer>
-    <!-- FIN footer -->
+    <?php require_once('footer.php'); ?>
     <!-- JQUERY ET BOOTSRAP JS-->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/hovermenu.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/analytics.js"></script>
     <!-- FIN JS -->
 </body>
 

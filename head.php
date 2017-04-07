@@ -1,9 +1,22 @@
 <!doctype html>
-<html>
+<html amp lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mon Portfolio - Présentation</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <meta name="description" content="<?php 
+        if (isset($desc)) {
+            echo $desc;
+        } else {
+            echo "Axel Floquet-Trillot, étudiant en informatique à l'école d'ingénieur Ingésup. Aussi imprimeur 3D référencé sur 3DHubs.";
+        }
+    ?>">
+    <title><?php 
+        if (isset($title)) {
+            echo $title;
+        } else {
+            echo "Axel Floquet-Trillot - Portfolio";
+        }
+    ?></title>
     <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
     <!-- BOOTSTRAP -->
     <!-- Latest compiled and minified CSS -->
@@ -15,7 +28,9 @@
     <link rel="stylesheet" href="css/style-accueil.css">
     <link rel="stylesheet" href="css/style-contact.css">
     <link rel="stylesheet" href="css/style-parcours.css">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script type="text/javascript" src="js/mail.js"></script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
