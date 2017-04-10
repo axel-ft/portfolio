@@ -1,4 +1,4 @@
-<body class="stretched">
+<body class="dark stretched" data-loader-timeout="2000">
 
     <!-- Document Wrapper
     ============================================= -->

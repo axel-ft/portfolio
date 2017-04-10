@@ -1,10 +1,18 @@
 /* ----------------------------------------------------------------
-	Custom CSS
+Custom CSS
 
-	Add all your Custom Styled CSS here for New Styles or
-	Overwriting Default Theme Styles for Better Hanlding Updates
+Add all your Custom Styled CSS here for New Styles or
+Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
+.darkcolorbg {
+    background: #1A1A1A;
+}
+
 p {
     text-align: justify;
     text-align-last: center;
+}
+
+div.divider > i:before {
+    color: rgba(255,255,255,0.25);
 }
