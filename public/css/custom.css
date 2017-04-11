@@ -5,14 +5,31 @@ Add all your Custom Styled CSS here for New Styles or
 Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 .darkcolorbg {
-    background: #1A1A1A;
+    background-color: #1A1A1A !important;
 }
 
-p {
+.dashed-border {
+    border: 1px dashed rgba(255,255,255,0.1);
+}
+
+p, .cjustify {
     text-align: justify;
     text-align-last: center;
 }
 
 div.divider > i:before {
     color: rgba(255,255,255,0.25);
+}
+
+div.rounded-skill, div.rounded-skill > div.counter {
+    width: 70px;
+    height: 70px;
+}
+
+div.rounded-skill {
+    margin-top: 5px;
+}
+
+div.rounded-skill > div.counter {
+    line-height: 70px;
 }

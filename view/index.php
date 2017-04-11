@@ -18,7 +18,7 @@
                     <div class="container clearfix">
                         <div class="slider-caption slider-caption-center">
                             <h2 data-caption-animate="fadeInUp">Bienvenue !</h2>
-                            <p data-caption-animate="fadeInUp">Je m'appelle Axel Floquet-Trillot, j'ai 22 ans, et je suis aujourd'hui étudiant en informatique en première année à Ingésup sur le campus d'Ynov Paris</p>
+                            <p data-caption-animate="fadeInUp">Je m'appelle Axel Floquet-Trillot, j'ai 23 ans, et je suis aujourd'hui étudiant en informatique en première année à Ingésup sur le campus d'Ynov Paris</p>
                         </div>
                     </div>
                 </div>
@@ -123,36 +123,155 @@
                 <div class="heading-block center">
                     <h2>Mes compétences</h2>
                 </div>
-                <div class="col_one_fourth center nobottommargin">
+                <div class="col-md-1 col-md-offset-1 center nobottommargin">
                     <div class="fancy-title title-center">
                         <h3>Langues</h3>
                     </div>
-                    <div class="rounded-skill" data-color="#009933" data-size="100" data-size-sm="70" data-percent="100" data-width="3" data-speed="2000">
+                    <h4 class="nobottommargin" data-animate="bounceIn">Français</h4>
+                    <div class="rounded-skill" data-color="#009933" data-size="70" data-percent="100" data-width="3" data-speed="2000">
                         <div class="counter counter-inherit"><span data-from="1" data-to="100" data-refresh-interval="50" data-speed="1750"></span>%</div>
                     </div>
-                    <h4>Français</h4>
-                    <div class="rounded-skill" data-color="#009832" data-size="100" data-percent="95" data-width="3" data-speed="2000">
+                    <h4 class="nobottommargin" data-animate="bounceIn">Espagnol</h4>
+                    <div class="rounded-skill" data-color="#009832" data-size="70" data-percent="95" data-width="3" data-speed="2000">
                         <div class="counter counter-inherit"><span data-from="1" data-to="95" data-refresh-interval="50" data-speed="1750"></span>%</div>
                     </div>
-                    <h4>Espagnol</h4>
-                    <div class="rounded-skill" data-color="#9BC631" data-size="100" data-percent="70" data-width="3" data-speed="2000">
+                    <h4 class="nobottommargin" data-animate="bounceIn">Anglais</h4>
+                    <div class="rounded-skill" data-color="#9BC631" data-size="70" data-percent="70" data-width="3" data-speed="2000">
                         <div class="counter counter-inherit"><span data-from="1" data-to="70" data-refresh-interval="50" data-speed="1750"></span>%</div>
                     </div>
-                    <h4>Anglais</h4>
                 </div>
-                <div class="col_one_fourth center nobottommargin">
+                <div class="col_one_fourth center leftmargin-sm nobottommargin">
                     <div class="fancy-title title-center">
-                        <h3>Langages Web</h3>
+                        <h3>Web</h3>
+                        <ul class="skills topmargin">
+                            <li data-percent="90" class="bottommargin">
+                                <span>HTML5</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="90" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="80" class="bottommargin">
+                                <span>CSS3</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="80" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="80" class="bottommargin">
+                                <span>SQL</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="80" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="70" class="bottommargin">
+                                <span>PHP</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="70" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="70" class="bottommargin">
+                                <span>JavaScript</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="70" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="60" class="bottommargin">
+                                <span>jQuery</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="60" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col_one_fourth center nobottommargin">
                     <div class="fancy-title title-center">
-                        <h3>Programmation</h3>
+                        <h3>Langages</h3>
+                        <ul class="skills topmargin">
+                            <li data-percent="100" class="bottommargin">
+                                <span>Bash</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="100" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="95" class="bottommargin">
+                                <span>Git</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="95" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="85" class="bottommargin">
+                                <span>Java</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="85" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="60" class="bottommargin">
+                                <span>C</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="60" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="15" class="bottommargin">
+                                <span>C++</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="15" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="1" class="bottommargin">
+                                <span>Python</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="1" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col_one_fourth center nobottommargin col_last">
                     <div class="fancy-title title-center">
                         <h3>Logiciels</h3>
+                        <ul class="skills topmargin">
+                            <li data-percent="100" class="bottommargin">
+                                <span>Acrobat</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="100" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="90" class="bottommargin">
+                                <span>Photoshop</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="90" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="80" class="bottommargin">
+                                <span>Illustrator</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="80" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="80" class="bottommargin">
+                                <span>Premiere</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="80" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="70" class="bottommargin">
+                                <span>After Effects</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="70" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                            <li data-percent="70" class="bottommargin">
+                                <span>3D Studio Max</span>
+                                <div class="progress">
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="70" data-refresh-interval="50" data-speed="1100"></span>%</div></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row clearfix common-height col-padding">
+                    <div class="divider divider-border divider-center nomargin">
+                        <i class="icon-terminal"></i>
                     </div>
                 </div>
             </div>
@@ -161,3 +280,6 @@
 </section>
 
 <?php require_once('view/require/footer.php'); ?>
+
+</body>
+</html>

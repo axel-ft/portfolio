@@ -71,6 +71,3 @@
     <!-- Footer Scripts
     ============================================= -->
     <script type="text/javascript" src="public/js/functions.js"></script>
-
-</body>
-</html>
