@@ -30,7 +30,7 @@
 <section id="content">
     <div class="content-wrap nopadding">
         <div class="section nomargin nopadding">
-            <div class="container-fluid clearfix darkcolorbg">
+            <div class="container-fluid clearfix">
                 <!-- Lycée
                 ============================================ -->
                 <div id="lycee" class="row clearfix common-height">
@@ -119,7 +119,7 @@
             </div>
         </div>
         <div class="section nomargin nopadding">
-            <div class="container-fluid clearfix darkcolorbg">
+            <div class="container-fluid clearfix">
                 <div class="heading-block center">
                     <h2>Mes compétences</h2>
                 </div>

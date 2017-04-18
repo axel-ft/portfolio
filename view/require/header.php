@@ -35,7 +35,7 @@
                             </li>
                             <li><a href="#"><div>Fichiers/Liens</div></a>
                                 <ul>
-                                    <li><a target="_blank" href="/public/files/CV_Axel_Floquet-Trillot.pdf"><div><i class="icon-edit"></i>CV (PDF)</div></a></li>
+                                    <li><a target="_blank" href="/CV"><div><i class="icon-edit"></i>CV (PDF)</div></a></li>
                                     <li><a target="_blank" href="https://aps-paris5.fr"><div><i class="icon-globe"></i>Site de l'APS</div></a></li>
                                 </ul>
                             </li>

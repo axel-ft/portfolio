@@ -5,16 +5,46 @@ Add all your Custom Styled CSS here for New Styles or
 Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 .darkcolorbg {
-    background-color: #1A1A1A !important;
+    background-color: #2B2B2B !important;
+}
+
+#slider > #page-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(40,40,40,0.85);
+}
+
+ul.nav-pills > li > a > h2 {
+    font-size: 25px;
 }
 
 .dashed-border {
     border: 1px dashed rgba(255,255,255,0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
 }
 
-p, .cjustify {
+.entry > .dashed-border:hover {
+    border-color: rgba(26,188,156,0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.entry-meta li, .entry-meta li i {
+    font-size: 30px;
+    line-height: 28px;
+}
+
+p, .justify {
     text-align: justify;
+}
+
+.cjustify {
     text-align-last: center;
+}
+
+.tab-content .fade {
+    transition-property: transform, height, opacity !important;
 }
 
 div.divider > i:before {
@@ -32,4 +62,34 @@ div.rounded-skill {
 
 div.rounded-skill > div.counter {
     line-height: 70px;
+}
+
+#footer * {
+    color: #898989 !important;
+}
+
+#footer .fright i:last-child {
+    color: #ffffff !important;
+}
+
+.si-3dhubs:hover {
+    background-color: #f65857;
+}
+
+@media screen and (max-width: 991px) {
+    .col-padding {
+        padding: 60px 30px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #header.transparent-header.floating-header .container {
+        width: 970px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    #header.transparent-header.floating-header .container {
+        width: 1170px;
+    }
 }

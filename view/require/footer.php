@@ -1,6 +1,6 @@
         <!-- Footer
         ============================================= -->
-        <footer id="footer" class="dark">
+        <footer id="footer" class="darkcolorbg">
 
             <!-- Copyrights
             ============================================= -->
@@ -38,6 +38,27 @@
                             <a target="_blank" href="https://bitbucket.org/axelft" class="social-icon si-rounded si-small si-borderless si-bitbucket">
                                 <i class="icon-bitbucket"></i>
                                 <i class="icon-bitbucket"></i>
+                            </a>
+
+                            <a target="_blank" href="https://www.3dhubs.com/service/axelft" class="social-icon si-rounded si-small si-borderless si-3dhubs">
+                                <i class="icon-3dhubs">
+                                    <svg version="1.1" id="3dhubs"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         xlmns:xlink="http://w3.org/1999/xlink"
+                                         x="0px" y="0px" viewbox="0 0 32 32" style="enable-background: new 0 0 32 32;" xml:space="preserve">
+                                        <style type="text/css">.bg5{fill:#898989;stroke:none;stroke-miterlimit:10;}</style>
+                                        <polygon class="bg5" points="19.7,7 26.2,10.8 26.2,18.8 16.1,25 5.8,18.6 5.8,11.1 12.5,7 16.1,9.2 "/>
+                                    </svg>
+                                </i>
+                                <i class="icon-3dhubs" style="position:relative; top:-9px;">
+                                    <svg version="1.1" id="3dhubs"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         xlmns:xlink="http://w3.org/1999/xlink"
+                                         x="0px" y="0px" viewbox="0 0 32 32" style="enable-background: new 0 0 32 32;" xml:space="preserve">
+                                        <style type="text/css">.bw{fill:#FFFFFF;stroke:none;stroke-miterlimit:10;}</style>
+                                        <polygon class="bw" points="19.7,7 26.2,10.8 26.2,18.8 16.1,25 5.8,18.6 5.8,11.1 12.5,7 16.1,9.2 "/>
+                                    </svg>
+                                </i>
                             </a>
 
                             <a target="_blank" href="https://paypal.me/axelft" class="social-icon si-rounded si-small si-borderless si-paypal">

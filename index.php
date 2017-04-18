@@ -19,6 +19,17 @@ $router->get('/parcours-professionnel', function () {
 $router->get('/contact', function () {
     require_once "view/contact.php";
 });
+$router->get('/CV', function () {
+    $file = 'public/files/CV_Axel_Floquet-Trillot.pdf';
+    $filaname = 'CV_Axel_Floquet-Trillot.pdf';
 
+    header('Content-Type: application/pdf');
+    header('Content-Disposition: inline; filename="' . $filename . '"');
+    header('Content-Transfer-Encoding: binary');
+    header('Content-Length: ' . filesize($file));
+    header('Accept-Ranges: bytes');
+
+    @readfile($file);
+});
 $router->run();
 

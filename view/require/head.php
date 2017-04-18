@@ -1,5 +1,5 @@
 <!doctype html>
-<html dir="ltr" lang="fr-FR">
+<html lang="fr" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Language" content="fr" />
