@@ -16,9 +16,9 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide dark" style="background-image: url('public/images/presentation/biocode.jpg');">
                     <div class="container clearfix">
-                        <div class="slider-caption slider-caption-center">
-                            <h2 data-caption-animate="fadeInUp">Bienvenue !</h2>
-                            <p data-caption-animate="fadeInUp">Je m'appelle Axel Floquet-Trillot, j'ai 23 ans, et je suis aujourd'hui étudiant en informatique en première année à Ingésup sur le campus d'Ynov Paris</p>
+                        <div class="slider-caption slider-caption-center" id="welcome">
+                                <img data-caption-animate="fadeInUp" src="/public/images/presentation/profil.jpg" class="img-responsive img-circle center" id="profile">
+                                <h2 data-caption-animate="fadeInUp">Bienvenue !</h2>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,8 @@
                             <div class="heading-block center">
                                 <h1 data-animate="fadeInLeft">Qui suis-je ?</h1>
                             </div>
-                            <p data-animate="fadeInLeft" data-delay="200" class="lead nobottommargin">J'ai obtenu mon bac scientifique en 2012, après mes études secondaires au Lycée Hoche de Versailles. Je suis entré en PACES (Première Année Commune aux Etudes de Santé) en 2012 dans le but initial de faire médecine.</p>
+                            <p data-animate="fadeInLeft" data-delay="200" class="lead">Je m'appelle Axel Floquet-Trillot, j'ai 23 ans, et je suis aujourd'hui étudiant en informatique en première année à Ingésup sur le campus d'Ynov Paris</p>
+                            <p data-animate="fadeInLeft" data-delay="400" class="lead nobottommargin">J'ai obtenu mon bac scientifique en 2012, après mes études secondaires au Lycée Hoche de Versailles. Je suis entré en PACES (Première Année Commune aux Etudes de Santé) en 2012 dans le but initial de faire médecine.</p>
                         </div>
                     </div>
                     <div class="col-md-6 center col-padding" style="background: url('public/images/presentation/hoche.jpg') center; background-size: cover;">

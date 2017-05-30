@@ -57,7 +57,7 @@ require_once('view/require/head.php');
                             </li>
                         </ul>
                     </div>
-                    <div class="container clearfix topmargin tab-content">
+                    <div class="container clearfix topmargin tab-content specialmargin-container">
 
                         <!-- Etudes
                         ============================================= -->
@@ -76,12 +76,10 @@ require_once('view/require/head.php');
                                         <li><i class="icon-calendar3"></i> 2017-2016</li>
                                     </ul>
                                     <div class="entry-image">
-                                        <a href="https://www.ingesup.com" class="entry-link nopadding" target="_blank">
-                                            <img class="image_fade" src="/public/images/parcours-pro/ingesup.jpg" alt="Logo Ingésup">
-                                        </a>
+                                        <a href="/public/images/parcours-pro/ingesup.jpg" data-lightbox="image"><img class="image_fade" src="/public/images/parcours-pro/ingesup.jpg" alt="Logo Ingésup"></a>
                                     </div>
                                     <div class="entry-title">
-                                        <h2>Entrée en 1<sup>ère</sup> année d'Ingésup (B1) sur le campus d'Ynov Paris</h2>
+                                        <h2>Entrée en 1<sup>ère</sup> année <a href="https://www.ingesup.com" class="color" target="_blank">d'Ingésup</a> (B1) sur le campus d'Ynov Paris</h2>
                                     </div>
                                 </div>
                             </div>
@@ -114,13 +112,21 @@ require_once('view/require/head.php');
                                         <li><i class="icon-calendar3"></i> 2016-2014</li>
                                     </ul>
                                     <div class="entry-image">
-                                        <blockquote>
-                                            <p>"When you are courting a nice girl an hour seems like a second. When you sit on a red-hot cinder a second seems like an hour. That's relativity."</p>
-                                            <footer>Albert Einstein</footer>
-                                        </blockquote>
+                                        <div class="fslider" data-arrows="false" data-lightbox="gallery">
+                                            <div class="flexslider">
+                                                <div class="slider-wrap">
+                                                    <div class="slide"><a href="/public/images/parcours-pro/biomed.jpg" data-lightbox="gallery-item"><img class="image_fade" src="/public/images/parcours-pro/biomed.jpg" alt="Becher et logo UFR"></a></div>
+                                                    <div class="slide"><a href="/public/images/parcours-pro/amphi.jpg" data-lightbox="gallery-item"><img class="image_fade" src="/public/images/parcours-pro/amphi.jpg" alt="Amphithéatre"></a></div>
+                                                    <div class="slide"><a href="/public/images/parcours-pro/ordi.jpg" data-lightbox="gallery-item"><img class="image_fade" src="/public/images/parcours-pro/ordi.jpg" alt="Travail et ordinateur"></a></div>
+                                                    <div class="slide"><a href="/public/images/parcours-pro/blouse.jpg" data-lightbox="gallery-item"><img class="image_fade" src="/public/images/parcours-pro/blouse.jpg" alt="Blouse"></a></div>
+                                                    <div class="slide"><a href="/public/images/parcours-pro/centrifugeuse.jpg" data-lightbox="gallery-item"><img class="image_fade" src="/public/images/parcours-pro/centrifugeuse.jpg" alt="Centrifugeuse"></a></div>
+                                                    <div class="slide"><a href="/public/images/parcours-pro/labo.jpg" data-lightbox="gallery-item"><img class="image_fade" src="/public/images/parcours-pro/labo.jpg" alt="Laboratoire"></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="entry-title">
-                                        <h2>Licence Sciences pour la Santé à l'Université Paris Descartes</h2>
+                                        <h2><a href="http://www.biomedicale.parisdescartes.fr" target="_blank" class="color">Licence Sciences pour la Santé</a> à l'Université Paris Descartes</h2>
                                     </div>
                                     <div class="entry-content justify topmargin-sm">
                                         <ul class="lead">
@@ -144,15 +150,16 @@ require_once('view/require/head.php');
                                         <div class="fslider" data-arrows="false" data-lightbox="gallery">
                                             <div class="flexslider">
                                                 <div class="slider-wrap">
-                                                    <div class="slide"><a href="http://www.biomedicale.parisdescartes.fr" target="_blank"><img class="image_fade" src="/public/images/parcours-pro/descartes.png" alt="Logo Université Paris Descartes"></a></div>
+                                                    <div class="slide"><a href="/public/images/parcours-pro/descartes.png" data-lightbox="gallery-item"><img class="image_fade" src="/public/images/parcours-pro/descartes.png" alt="Logo Université Paris Descartes"></a></div>
                                                     <div class="slide"><a href="/public/images/parcours-pro/descartes.jpg" data-lightbox="gallery-item"><img class="image_fade" src="/public/images/parcours-pro/descartes.jpg" alt="Façade Descartes"></a></div>
-                                                    <div class="slide"><a href="/public/images/parcours-pro/courspaces.jpg" data-lightbox="gallery-item"><img class="image_fade" src="/public/images/parcours-pro/courspaces.jpg" alt="Travail et ordinateur"></a></div>
+                                                    <div class="slide"><a href="/public/images/parcours-pro/livres.jpg" data-lightbox="gallery-item"><img class="image_fade" src="/public/images/parcours-pro/livres.jpg" alt="Livres"></a></div>
+                                                    <div class="slide"><a href="/public/images/parcours-pro/ordi2.jpg" data-lightbox="gallery-item"><img class="image_fade" src="/public/images/parcours-pro/ordi2.jpg" alt="Travail et ordinateur"></a></div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="entry-title">
-                                        <h2>PACES à l'Université Paris Descartes</h2>
+                                        <h2>PACES à <a href="http://www.univ-paris5.fr" target="_blank" class="color">l'Université Paris Descartes</a></h2>
                                     </div>
                                     <div class="entry-content justify topmargin-sm">
                                         <ul class="lead">
@@ -174,7 +181,7 @@ require_once('view/require/head.php');
                                         <li><i class="icon-calendar3"></i> Juin 2012</li>
                                     </ul>
                                     <div class="entry-image">
-                                        <a href="/public/images/parcours-pro/diplome.jpg" data-lightbox="image"><img class="image_fade" src="/public/images/parcours-pro/diplome.jpg" alt="Diplôme"></a>
+                                        <a href="/public/images/parcours-pro/bac.jpg" data-lightbox="image"><img class="image_fade" src="/public/images/parcours-pro/bac.jpg" alt="Baccalauréat"></a>
                                     </div>
                                     <div class="entry-title">
                                         <h2>Obtention du Baccalauréat Général Scientifique</h2>
@@ -198,10 +205,26 @@ require_once('view/require/head.php');
                                         <li><i class="icon-calendar3"></i> 2012 - 2009</li>
                                     </ul>
                                     <div class="entry-image">
-                                        <a href="/public/images/parcours-pro/hoche.jpg" data-lightbox="image"><img class="image_fade" src="/public/images/parcours-pro/hoche.jpg" alt="Logo Lycée Hoche"></a>
+                                        <div class="fslider" data-arrows="false" data-lightbox="gallery" data-easing="easeInQuad">
+                                            <div class="flexslider">
+                                                <div class="slider-wrap">
+                                                    <div class="slide">
+                                                        <a href="/public/images/parcours-pro/hoche-logo.jpg" data-lightbox="gallery-item">
+                                                            <img class="image_fade" src="/public/images/parcours-pro/hoche-logo.jpg" alt="Logo Lycée Hoche">
+                                                        </a>
+                                                    </div>
+                                                    <div class="slide">
+                                                        <a href="/public/images/parcours-pro/hoche.jpg" data-lightbox="gallery-item">
+                                                            <img class="image_fade" src="/public/images/parcours-pro/hoche.jpg" alt="Façade Hoche">
+                                                            <div class="flex-caption slider-caption-bg slider-caption-small t500"><a href="https://commons.wikimedia.org/wiki/File:Lycee_73_avenue_de_Saint-Cloud_Versailles.JPG" target="_blank">"Lycée Hoche au 73 avenue de Saint-Cloud Versailles"</a> par <a href="https://commons.wikimedia.org/wiki/Special:Contributions/Copyleft" target="_blank">Copyleft</a>, licence <a href="https://creativecommons.org/licences/by-sa/3.0/deed.en" target="_blank">CC BY-SA 3.0<a></div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="entry-title">
-                                        <h2>Etudes secondaires au Lycée Hoche à Versailles</h2>
+                                        <h2>Etudes secondaires au <a href="http://www.lyc-hoche-versailles.ac-versailles.fr" class="color" target="_blank">Lycée Hoche</a> à Versailles</h2>
                                     </div>
                                 </div>
                             </div>
@@ -227,12 +250,10 @@ require_once('view/require/head.php');
                                         <li><i class="icon-calendar3"></i> Février 2009</li>
                                     </ul>
                                     <div class="entry-image">
-                                        <a href="#" class="entry-link" target="_blank">
-                                            <img class="image_fade" src="/public/images/parcours-pro/grandoptical.png" alt="Logo Grand Optical" style="background-color: #fff;">
-                                        </a>
+                                        <a href="/public/images/parcours-pro/grandoptical.png" data-lightbox="image"><img class="image_fade" src="/public/images/parcours-pro/grandoptical.png" alt="Logo Grand Optical" style="background-color: #fff;" ></a>
                                     </div>
                                     <div class="entry-title">
-                                        <h2>Stage au Grand Optical</h2>
+                                        <h2>Stage au <a href="https://www.grandoptical.com/gop/fr/store/Vélizy" target="_blank" class="color">Grand Optical</a></h2>
                                     </div>
                                     <div class="entry-content justify topmargin-sm">
                                         <ul class="lead">
@@ -267,9 +288,7 @@ require_once('view/require/head.php');
                                         <li><i class="icon-calendar3"></i> 2017-2016</li>
                                     </ul>
                                     <div class="entry-image">
-                                        <a href="#" class="entry-link" target="_blank">
-                                            <img class="image_fade" src="/public/images/presentation/site-aps.png" alt="Logo Ingésup">
-                                        </a>
+                                        <a href="/public/images/presentation/site-aps.png" data-lightbox="image"><img class="image_fade" src="/public/images/presentation/site-aps.png" alt="Capture site APS"></a>
                                     </div>
                                     <div class="entry-title">
                                         <h2>Membre Ancien de l'Amicale Paris Sciences</h2>
@@ -294,17 +313,15 @@ require_once('view/require/head.php');
                                         <li><i class="icon-calendar3"></i> 2016-2015</li>
                                     </ul>
                                     <div class="entry-image">
-                                        <a href="#" class="entry-link" target="_blank">
-                                            <img class="image_fade" src="/public/images/presentation/gala-aps.jpg" alt="Logo Ingésup">
-                                        </a>
+                                        <a href="/public/images/presentation/gala-aps.jpg" data-lightbox="image"><img class="image_fade" src="/public/images/presentation/gala-aps.jpg" alt="Photo Gala 2016"></a>
                                     </div>
                                     <div class="entry-title">
                                         <h2>Vice-Président chargé de Communication à l'Amicale Paris Sciences</h2>
                                     </div>
                                     <div class="entry-content justify topmargin-sm">
                                         <ul class="lead">
-                                            <li>Gestion d'un serveur Linux hébergé par 1&1</li>
-                                            <li>Création d'un site basé sur Joomla!</li>
+                                            <li>Gestion d'un serveur Linux hébergé par 1&amp;1</li>
+                                            <li>Création d'<a href="https://aps-paris5.fr" title="Site de l'APS">un site</a> basé sur Joomla!</li>
                                             <li>Création du template du site</li>
                                             <li>Gestion de comptes Facebook, Twitter et YouTube</li>
                                             <li>Organisation d'un cours sur Photoshop</li>
@@ -323,12 +340,10 @@ require_once('view/require/head.php');
                                         <li><i class="icon-calendar3"></i> 2015-2014</li>
                                     </ul>
                                     <div class="entry-image">
-                                        <a href="#" class="entry-link" target="_blank">
-                                            <img class="image_fade" src="/public/images/parcours-pro/aps.png" alt="Logo APS">
-                                        </a>
+                                        <a href="/public/images/parcours-pro/aps.png" data-lightbox="image"><img class="image_fade" src="/public/images/parcours-pro/aps.png" alt="Logo APS"></a>
                                     </div>
                                     <div class="entry-title">
-                                        <h2>Membre actif de l'Amicale Paris Sciences</h2>
+                                        <h2>Membre actif de <a href="https://aps-paris5.fr/l-aps" class="color" target="_blank">l'Amicale Paris Sciences</a></h2>
                                     </div>
                                     <div class="entry-content justify topmargin-sm">
                                         <p class="lead">Réalisation de projets tout au long de l'année : </p>
