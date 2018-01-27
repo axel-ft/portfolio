@@ -47,5 +47,6 @@
 	<link rel="stylesheet" href="public/css/magnific-popup.css" type="text/css" />
 	<link rel="stylesheet" href="public/css/responsive.css" type="text/css" />
     <link rel="stylesheet" href="public/css/custom.css" type="text/css" />
+    <link rel="stylesheet" href="public/css/devicon.min.css" type="text/css" />
 	<!-- =============================================
     END STYLESHEETS -->

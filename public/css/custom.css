@@ -124,6 +124,20 @@ div.rounded-skill > div.counter {
     background-color: #f65857;
 }
 
+.competences i, .competences svg, .competences img {
+    margin: 15px;
+    display: inline-block;
+}
+
+.competences i {
+    font-size: 85px;
+}
+
+.competences svg, .competences img {
+    width: 85px;
+    height: auto;
+}
+
 @media screen and (max-width: 991px) {
     .col-padding {
         padding: 60px 30px;
