@@ -289,9 +289,9 @@ require_once('view/require/head.php');
                                             <span data-animate="fadeInLeft" class="divcenter">En cours</span>
                                         </div>
                                         <ul data-animate="fadeInLeft" data-delay="200" class="lead center noliststyle">
-                                            <li>Flèche noire</li>
+                                            <li>Flèche Bleue</li>
                                             <li>Arc classique</li>
-                                            <li>Tir jusqu'à 20m</li>
+                                            <li>Tir jusqu'à 30m</li>
                                         </ul>
                                     </div>
                                 </div>

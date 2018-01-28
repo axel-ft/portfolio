@@ -50,7 +50,7 @@ require_once('view/require/head.php');
                                 <a id="etudes-pill" data-toggle="pill" href="#etudes"><h2 class="nomargin noppading">Etudes</h2></a>
                             </li>
                             <li>
-                                <a id="stages-pill" data-toggle="pill" href="#stages"><h2 class="nomargin noppading">Stage</h2></a>
+                                <a id="stages-pill" data-toggle="pill" href="#stages"><h2 class="nomargin noppading">Stages</h2></a>
                             </li>
                             <li>
                                 <a id="associatif-pill" data-toggle="pill" href="#associatif"><h2 class="nomargin noppading">Associatif</h2></a>
@@ -73,13 +73,19 @@ require_once('view/require/head.php');
                                         <div class="timeline-divider"></div>
                                     </div>
                                     <ul class="entry-meta bottommargin-sm clearfix">
-                                        <li><i class="icon-calendar3"></i> 2017-2016</li>
+                                        <li><i class="icon-calendar3"></i> 2018-2016</li>
                                     </ul>
                                     <div class="entry-image">
                                         <a href="/public/images/parcours-pro/ingesup.jpg" data-lightbox="image"><img class="image_fade" src="/public/images/parcours-pro/ingesup.jpg" alt="Logo Ingésup"></a>
                                     </div>
                                     <div class="entry-title">
-                                        <h2>Entrée en 1<sup>ère</sup> année <a href="https://www.ingesup.com" class="color" target="_blank">d'Ingésup</a> (B1) sur le campus d'Ynov Paris</h2>
+                                        <h2>Bachelor Architecte Informatique et Systèmes d'Information à <a href="https://www.ingesup.com" class="color" target="_blank">Ingésup</a></h2>
+                                    </div>
+                                    <div class="entry-content justify topmargin-sm">
+                                        <ul class="lead">
+                                            <li>1<sup>ère</sup> année (B1) sur le campus d'Ynov Paris. Formation générale en développement et en réseau</li>
+                                            <li>2<sup>ème</sup> année (B2) inaugurant le campus de Nanterre. Suite de cette formation générale</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -247,13 +253,42 @@ require_once('view/require/head.php');
                                         <div class="timeline-divider"></div>
                                     </div>
                                     <ul class="entry-meta bottommargin-sm clearfix">
+                                        <li><i class="icon-calendar3"></i> Juin - Août 2017</li>
+                                    </ul>
+                                    <div class="entry-image">
+                                        <a href="/public/images/parcours-pro/aareon.svg" data-lightbox="image"><img class="image_fade" src="/public/images/parcours-pro/aareon.svg" alt="Logo Aareon" style="background-color: #fff;" ></a>
+                                    </div>
+                                    <div class="entry-title">
+                                        <h2>Intervenant Technique au service informatique d'<a href="https://www.aareon.fr" target="_blank" class="color">Aareon</a></h2>
+                                    </div>
+                                    <div class="entry-content justify topmargin-sm">
+                                        <ul class="lead">
+                                            <li>Administration de niveaux 1 et 2 du réseau ainsi que des serveurs sous Windows, Unix et Linux</li>
+                                            <li>Gestion et maintenance du parc informatique de l'entreprise : commandes, inventaire, support, sauvegardes, etc. (200 ordinateurs et 400 serveurs)</li>
+                                            <li>Installer un équipement informatique</li>
+                                            <li>Mise en place d'un système de déploiement de systèmes d'exploitation et applications avec <a href="https://technet.microsoft.com/fr-fr/windows/dn475741.aspx" target="_blank" class="color">MDT</a> (Microsft Deployment Toolkit) et <a href="https://fr.wikipedia.org/wiki/Windows_Deployment_Services" target="_blank" class="color">WDS</a> (Windows Deployment Service) sur Windows Server</li>
+                                            <li>Participer à la rédaction de documents nécessaires à l’installation du parc, à son exploitation et à la sauvegarde</li>
+                                            <li>Alimenter une base de connaissance sur la résolution des incidents</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--<div class="entry entry-date-section bottommargin-sm notopmargin"><span>2017</span></div>-->
+
+                            <div class="entry clearfix">
+                                <div class="col-padding dashed-border">
+                                    <div class="entry-timeline">
+                                        <div class="timeline-divider"></div>
+                                    </div>
+                                    <ul class="entry-meta bottommargin-sm clearfix">
                                         <li><i class="icon-calendar3"></i> Février 2009</li>
                                     </ul>
                                     <div class="entry-image">
                                         <a href="/public/images/parcours-pro/grandoptical.png" data-lightbox="image"><img class="image_fade" src="/public/images/parcours-pro/grandoptical.png" alt="Logo Grand Optical" style="background-color: #fff;" ></a>
                                     </div>
                                     <div class="entry-title">
-                                        <h2>Stage au <a href="https://www.grandoptical.com/gop/fr/store/Vélizy" target="_blank" class="color">Grand Optical</a></h2>
+                                        <h2>Assistant Polyvalant au <a href="https://www.grandoptical.com/gop/fr/store/Vélizy" target="_blank" class="color">Grand Optical</a></h2>
                                     </div>
                                     <div class="entry-content justify topmargin-sm">
                                         <ul class="lead">
@@ -278,6 +313,32 @@ require_once('view/require/head.php');
                             <div class="timeline-border"></div>
 
                             <div class="entry entry-date-section notopmargin"><span>Maintenant</span></div>
+
+                            <div class="entry clearfix">
+                                <div class="col-padding dashed-border">
+                                    <div class="entry-timeline">
+                                        <div class="timeline-divider"></div>
+                                    </div>
+                                    <ul class="entry-meta bottommargin-sm clearfix">
+                                        <li><i class="icon-calendar3"></i> 2017-2018</li>
+                                    </ul>
+                                    <div class="entry-image">
+                                        <a href="/public/images/parcours-pro/bdepandora.png" data-lightbox="image"><img class="image_fade" src="/public/images/parcours-pro/bdepandora.png" alt="Logo Pand'Ora"></a>
+                                    </div>
+                                    <div class="entry-title">
+                                        <h2>Coordinateur Inter-Associations du BDE Pand'Ora</h2>
+                                    </div>
+                                    <div class="entry-content justify topmargin-sm">
+                                        <ul class="lead">
+                                            <li>Création d'un site internet permettant de réunir les informations des 13 associations du campus (bitentôt disponible)</li>
+                                            <li>Calendrier contenant les événements de toutes les associations</li>
+                                            <li>Organisation de soirées et voyages</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="entry entry-date-section bottommargin-sm notopmargin"><span>2017</span></div>
 
                             <div class="entry clearfix">
                                 <div class="col-padding dashed-border">
