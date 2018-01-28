@@ -26,13 +26,14 @@
                     <nav id="primary-menu" class="dark">
 
                         <ul>
-                            <li class="current"><a href="/"><div>Présentation personnelle</div></a></li>
+                            <li class="current"><a href="/"><div>Présentation</div></a></li>
                             <li><a href="#"><div>Parcours</div></a>
                                 <ul>
                                     <li><a href="/parcours-professionnel"><div><i class="icon-briefcase"></i>Professionnel</div></a></li>
                                     <li><a href="/parcours-personnel"><div><i class="icon-user"></i>Personnel</div></a></li>
                                 </ul>
                             </li>
+                            <li><a href="/projets"><div>Projets</div></a></li>
                             <li><a href="#"><div>Fichiers/Liens</div></a>
                                 <ul>
                                     <li><a target="_blank" href="/CV"><div><i class="icon-edit"></i>CV (PDF)</div></a></li>

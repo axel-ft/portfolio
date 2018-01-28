@@ -16,6 +16,9 @@ $router->get('/parcours-personnel', function () {
 $router->get('/parcours-professionnel', function () {
     require_once 'view/parcours-professionnel.php';
 });
+$router->get('/projets', function () {
+    require_once 'view/projets.php';
+});
 $router->get('/contact', function () {
     require_once "view/contact.php";
 });
